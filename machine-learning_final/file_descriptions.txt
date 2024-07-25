@@ -1,0 +1,104 @@
+
+
+
+
+****************************************************************
+****************************************************************
+FILE DESCRIPTIONS
+****************************************************************
+****************************************************************
+
+****************************************************************
+NOTEBOOKS
+****************************************************************
+
+- mdl_cleanexplo
+    scrapes
+    finds and saves url slugs
+
+- mdl_dramainfo
+    scrapes
+    obtains dataset and saves by year
+
+- mdl_cleanexplo
+    filters dataset for not-null
+    drops, combines genres
+    saves dataset
+
+- mdl_mod01
+    maps genre lists to cols for each genre
+    cleans review text
+    text processing using TF-IDF and word2vec
+    saves the two arrays
+
+- mdl_mod02
+	tests logistic regression, random forest, gaussian naive bayes
+	tested on genre = romance (~67%) and genre = action (~10%)
+	tested for TF-IDF and word2vec
+
+- mdl_mod03
+	tests different oversampling, undersampling strategies
+	tested with logistic regression, random forest, gaussian naive bayes
+	tested on genre = action (~10%)
+	tested for TF-IDF and word2vec
+
+- mdl_mod04
+    uses GridSearchCV to find best paramenters for logistic regression
+    considers penalty, C, solver
+    tested on genre = action (~10%)
+    tested for TF-IDF
+    with oversampling, undersampling
+
+- mdl_mod05
+	runs model for all genres
+	saves models and test results
+	looks at model metrics
+
+****************************************************************
+DATAFILES
+****************************************************************
+
+- dramainfo_baseclean.json
+	dataset filtered for not-null
+	with dropped, combined genres
+
+- dramainfo_revclean.json
+	with cleaned reviews
+
+- tfidfvec.npy
+	TF-IDF vectors of processed review texts
+
+- tfidfvocab.npy
+	TF-IDF vocabulary vector
+
+- w2featvec.npy
+	average word2vec vectors of processed review texts
+
+- [GENRE]__model.sav
+	final models
+
+- [GENRE]__xtest.npy
+	array of X_test, final
+
+- [GENRE]__ytest.npy
+	array of y_test, final
+
+****************************************************************
+TEST RESULTS
+****************************************************************
+
+- model_metrics_bygenre.json
+	accuracy, precision, recall, f1, AUC for each genre
+
+- dramainfo_revtested.json
+	dataset with genre predictions column
+	has jaccard similiarity score
+
+****************************************************************
+****************************************************************
+END
+****************************************************************
+****************************************************************
+
+
+
