@@ -1,0 +1,999 @@
+level_0,index,train_id,stop_sequence,from,from_id,to,to_id,delay_minutes,status,line,type,scheduled_date,scheduled_time,actual_date,actual_time,week_day
+9537,11349,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-03,07:28:00,2019-01-03,07:27:00,Thu
+14537,17112,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2019-01-03,08:11:00,2019-01-03,08:15:00,Thu
+18774,21889,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-04,07:28:00,2019-01-04,07:27:00,Fri
+21681,25171,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-04,08:11:00,2019-01-04,08:11:00,Fri
+35017,40131,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,30.0,estimated,Gladstone Branch,NJ Transit,2019-01-07,08:11:00,2019-01-07,08:41:00,Mon
+38200,43810,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-07,07:28:00,2019-01-07,07:28:00,Mon
+43027,49120,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-08,07:28:00,2019-01-08,07:28:00,Tue
+46036,52504,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2019-01-08,08:11:00,2019-01-08,08:15:00,Tue
+52389,59654,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-09,07:28:00,2019-01-09,07:27:00,Wed
+53363,60874,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2019-01-09,08:11:00,2019-01-09,08:12:00,Wed
+60537,69251,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2019-01-10,08:11:00,2019-01-10,08:13:00,Thu
+61572,70541,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2019-01-10,07:28:00,2019-01-10,07:29:00,Thu
+67338,77045,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,16.0,estimated,Gladstone Branch,NJ Transit,2019-01-11,08:11:00,2019-01-11,08:27:00,Fri
+70288,80377,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-11,07:28:00,2019-01-11,07:28:00,Fri
+81592,92728,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-14,07:28:00,2019-01-14,07:27:00,Mon
+88989,101471,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,63.0,estimated,Gladstone Branch,NJ Transit,2019-01-14,08:11:00,2019-01-14,09:14:00,Mon
+91269,104069,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2019-01-15,07:28:00,2019-01-15,07:34:00,Tue
+95984,109397,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-01-15,08:11:00,2019-01-15,08:14:00,Tue
+98593,112354,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,16.0,estimated,Gladstone Branch,NJ Transit,2019-01-16,08:11:00,2019-01-16,08:27:00,Wed
+103753,118287,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-16,07:28:00,2019-01-16,07:27:00,Wed
+106371,121164,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,11.0,estimated,Gladstone Branch,NJ Transit,2019-01-17,08:11:00,2019-01-17,08:22:00,Thu
+113441,129106,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2019-01-17,07:28:00,2019-01-17,07:29:00,Thu
+114341,130095,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-18,07:28:00,2019-01-18,07:27:00,Fri
+121839,138650,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-18,08:11:00,2019-01-18,08:11:00,Fri
+130964,148243,8404,22.0,Secaucus Upper Lvl,38187.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-21,07:11:00,2019-01-21,07:10:00,Mon
+134113,151399,8406,22.0,Secaucus Upper Lvl,38187.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2019-01-21,07:54:00,2019-01-21,08:00:00,Mon
+136362,153737,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-22,07:28:00,2019-01-22,07:27:00,Tue
+143404,161414,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-01-22,08:11:00,2019-01-22,08:16:00,Tue
+144738,162926,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-23,07:28:00,2019-01-23,07:28:00,Wed
+149362,168213,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,17.0,estimated,Gladstone Branch,NJ Transit,2019-01-23,08:11:00,2019-01-23,08:28:00,Wed
+153110,172476,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-24,07:28:00,2019-01-24,07:27:00,Thu
+156473,176211,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-01-24,08:11:00,2019-01-24,08:14:00,Thu
+163127,183708,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-25,07:28:00,2019-01-25,07:27:00,Fri
+163733,184390,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2019-01-25,08:11:00,2019-01-25,08:15:00,Fri
+178311,200529,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-28,07:28:00,2019-01-28,07:28:00,Mon
+181527,204149,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,11.0,estimated,Gladstone Branch,NJ Transit,2019-01-28,08:11:00,2019-01-28,08:22:00,Mon
+187058,210416,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-29,07:28:00,2019-01-29,07:27:00,Tue
+187900,211361,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2019-01-29,08:11:00,2019-01-29,08:19:00,Tue
+195386,220032,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-01-30,08:11:00,2019-01-30,08:14:00,Wed
+196084,220795,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-30,07:28:00,2019-01-30,07:28:00,Wed
+202382,227984,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,13.0,estimated,Gladstone Branch,NJ Transit,2019-01-31,08:11:00,2019-01-31,08:24:00,Thu
+205548,231546,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-01-31,07:28:00,2019-01-31,07:27:00,Thu
+210225,237057,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-02-01,08:11:00,2019-02-01,08:14:00,Fri
+213131,240407,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-01,07:28:00,2019-02-01,07:27:00,Fri
+233890,263874,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2019-02-05,07:28:00,2019-02-05,07:29:00,Tue
+238656,269292,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,9.0,estimated,Gladstone Branch,NJ Transit,2019-02-05,08:11:00,2019-02-05,08:20:00,Tue
+241256,272249,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2019-02-06,08:11:00,2019-02-06,08:17:00,Wed
+246441,278133,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-06,07:28:00,2019-02-06,07:27:00,Wed
+249098,281106,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-02-07,08:11:00,2019-02-07,08:14:00,Thu
+256017,288964,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-07,07:28:00,2019-02-07,07:27:00,Thu
+256964,290039,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-08,07:28:00,2019-02-08,07:28:00,Fri
+264336,298486,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2019-02-08,08:11:00,2019-02-08,08:13:00,Fri
+273718,308714,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-02-11,08:11:00,2019-02-11,08:16:00,Mon
+281238,317206,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-11,07:28:00,2019-02-11,07:27:00,Mon
+281549,317569,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-12,07:28:00,2019-02-12,07:27:00,Tue
+288400,325500,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,31.0,estimated,Gladstone Branch,NJ Transit,2019-02-12,08:11:00,2019-02-12,08:42:00,Tue
+290680,328060,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-13,07:28:00,2019-02-13,07:27:00,Wed
+295758,333902,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2019-02-13,08:11:00,2019-02-13,08:17:00,Wed
+299901,338535,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-02-14,07:28:00,2019-02-14,07:31:00,Thu
+302690,341745,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2019-02-14,08:11:00,2019-02-14,08:13:00,Thu
+308033,347985,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2019-02-15,07:28:00,2019-02-15,07:34:00,Fri
+309128,349252,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,14.0,estimated,Gladstone Branch,NJ Transit,2019-02-15,08:11:00,2019-02-15,08:25:00,Fri
+322039,363603,8406,22.0,Secaucus Upper Lvl,38187.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-18,07:54:00,2019-02-18,07:53:00,Mon
+324101,365835,8404,22.0,Secaucus Upper Lvl,38187.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-18,07:11:00,2019-02-18,07:11:00,Mon
+330287,372538,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-19,07:28:00,2019-02-19,07:27:00,Tue
+331281,373676,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,15.0,estimated,Gladstone Branch,NJ Transit,2019-02-19,08:11:00,2019-02-19,08:26:00,Tue
+338281,381897,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-02-20,08:11:00,2019-02-20,08:14:00,Wed
+338933,382639,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-20,07:28:00,2019-02-20,07:27:00,Wed
+351759,398144,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-22,07:28:00,2019-02-22,07:28:00,Fri
+374845,425538,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-02-26,08:11:00,2019-02-26,08:14:00,Tue
+379707,431023,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-26,07:28:00,2019-02-26,07:27:00,Tue
+380923,432405,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2019-02-27,08:11:00,2019-02-27,08:13:00,Wed
+387947,440343,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-27,07:28:00,2019-02-27,07:27:00,Wed
+388837,441419,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-02-28,07:28:00,2019-02-28,07:27:00,Thu
+395593,449042,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2019-02-28,08:11:00,2019-02-28,08:17:00,Thu
+400510,454833,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,10.0,estimated,Gladstone Branch,NJ Transit,2019-03-01,08:11:00,2019-03-01,08:21:00,Fri
+401342,455779,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2019-03-01,07:28:00,2019-03-01,07:35:00,Fri
+414563,470498,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2019-03-04,07:28:00,2019-03-04,07:36:00,Mon
+419440,476508,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2019-03-04,08:11:00,2019-03-04,08:17:00,Mon
+420562,477901,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2019-03-05,07:28:00,2019-03-05,07:29:00,Tue
+427456,485757,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2019-03-05,08:11:00,2019-03-05,08:12:00,Tue
+428765,487223,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2019-03-06,08:11:00,2019-03-06,08:18:00,Wed
+436256,495709,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-06,07:28:00,2019-03-06,07:27:00,Wed
+438023,497764,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2019-03-07,08:11:00,2019-03-07,08:19:00,Thu
+442657,503037,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-07,07:28:00,2019-03-07,07:27:00,Thu
+445734,506495,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-08,07:28:00,2019-03-08,07:27:00,Fri
+451211,512673,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,30.0,estimated,Gladstone Branch,NJ Transit,2019-03-08,08:11:00,2019-03-08,08:41:00,Fri
+462535,525069,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-03-11,08:11:00,2019-03-11,08:14:00,Mon
+467680,531002,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-11,07:28:00,2019-03-11,07:28:00,Mon
+471299,535039,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-12,07:28:00,2019-03-12,07:27:00,Tue
+476022,540389,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2019-03-12,08:11:00,2019-03-12,08:13:00,Tue
+477463,542073,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-13,07:28:00,2019-03-13,07:27:00,Wed
+484949,550497,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2019-03-13,08:11:00,2019-03-13,08:13:00,Wed
+488795,554753,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,16.0,estimated,Gladstone Branch,NJ Transit,2019-03-14,07:28:00,2019-03-14,07:44:00,Thu
+489659,555789,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2019-03-14,08:11:00,2019-03-14,08:19:00,Thu
+496164,563146,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-15,07:28:00,2019-03-15,07:27:00,Fri
+499334,566779,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2019-03-15,08:11:00,2019-03-15,08:12:00,Fri
+514288,583379,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-18,07:28:00,2019-03-18,07:27:00,Mon
+514942,584171,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,9.0,estimated,Gladstone Branch,NJ Transit,2019-03-18,08:11:00,2019-03-18,08:20:00,Mon
+520517,590507,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-19,07:28:00,2019-03-19,07:27:00,Tue
+523782,594152,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2019-03-19,08:11:00,2019-03-19,08:13:00,Tue
+529497,600738,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2019-03-20,08:11:00,2019-03-20,08:15:00,Wed
+532551,604168,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-20,07:28:00,2019-03-20,07:27:00,Wed
+537949,610329,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,22.0,estimated,Gladstone Branch,NJ Transit,2019-03-21,08:11:00,2019-03-21,08:33:00,Thu
+538910,611432,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-21,07:28:00,2019-03-21,07:27:00,Thu
+546484,619767,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-22,07:28:00,2019-03-22,07:28:00,Fri
+547200,620586,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-03-22,08:11:00,2019-03-22,08:14:00,Fri
+559830,634575,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-25,07:28:00,2019-03-25,07:27:00,Mon
+567259,642971,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,9.0,estimated,Gladstone Branch,NJ Transit,2019-03-25,08:11:00,2019-03-25,08:20:00,Mon
+567783,643569,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2019-03-26,08:11:00,2019-03-26,08:13:00,Tue
+574606,651270,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-26,07:28:00,2019-03-26,07:28:00,Tue
+576957,653950,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2019-03-27,08:11:00,2019-03-27,08:13:00,Wed
+582290,659975,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-27,07:28:00,2019-03-27,07:27:00,Wed
+585331,663403,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2019-03-28,07:28:00,2019-03-28,07:30:00,Thu
+590109,668807,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-03-28,08:11:00,2019-03-28,08:16:00,Thu
+591735,670677,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-03-29,07:28:00,2019-03-29,07:27:00,Fri
+599361,679238,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-03-29,08:11:00,2019-03-29,08:16:00,Fri
+610956,692021,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-07-01,07:28:00,2019-07-01,07:29:00,Mon
+614016,695667,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-07-01,08:11:00,2019-07-01,08:14:00,Mon
+618708,701439,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-02,08:11:00,2019-07-02,08:10:00,Tue
+621465,704729,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-02,07:28:00,2019-07-02,07:27:00,Tue
+628230,712745,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-07-03,08:11:00,2019-07-03,08:12:00,Wed
+629281,714011,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-03,07:28:00,2019-07-03,07:28:00,Wed
+639053,724879,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-07-05,08:11:00,2019-07-05,08:12:00,Fri
+644269,731178,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-05,07:28:00,2019-07-05,07:27:00,Fri
+654893,743093,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-07-08,08:11:00,2019-07-08,08:12:00,Mon
+661784,751357,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-08,07:28:00,2019-07-08,07:27:00,Mon
+664299,754310,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-09,08:11:00,2019-07-09,08:10:00,Tue
+669248,760123,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-09,07:28:00,2019-07-09,07:28:00,Tue
+672132,763499,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-10,07:28:00,2019-07-10,07:27:00,Wed
+677228,769507,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,17.000000000000004,estimated,Gladstone Branch,NJ Transit,2019-07-10,08:11:00,2019-07-10,08:28:00,Wed
+678521,771060,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-11,07:28:00,2019-07-11,07:27:00,Thu
+685458,779129,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-07-11,08:11:00,2019-07-11,08:14:00,Thu
+686730,780639,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-12,08:11:00,2019-07-12,08:10:00,Fri
+694175,789392,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-12,07:28:00,2019-07-12,07:27:00,Fri
+705830,803493,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-07-15,08:11:00,2019-07-15,08:13:00,Mon
+706692,804462,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-15,07:28:00,2019-07-15,07:27:00,Mon
+712764,811542,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-16,07:28:00,2019-07-16,07:27:00,Tue
+713800,812734,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-07-16,08:11:00,2019-07-16,08:15:00,Tue
+720058,819935,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-07-17,07:28:00,2019-07-17,07:29:00,Wed
+722884,823235,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-07-17,08:11:00,2019-07-17,08:16:00,Wed
+728001,829329,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.000000000000002,estimated,Gladstone Branch,NJ Transit,2019-07-18,08:11:00,2019-07-18,08:19:00,Thu
+731057,832900,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-18,07:28:00,2019-07-18,07:27:00,Thu
+736697,839481,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-07-19,08:11:00,2019-07-19,08:13:00,Fri
+737423,840331,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-07-19,07:28:00,2019-07-19,07:31:00,Fri
+751793,856831,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,12.0,estimated,Gladstone Branch,NJ Transit,2019-07-22,08:11:00,2019-07-22,08:23:00,Mon
+755033,860591,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-07-22,07:28:00,2019-07-22,07:30:00,Mon
+760431,866863,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,18.0,estimated,Gladstone Branch,NJ Transit,2019-07-23,08:11:00,2019-07-23,08:29:00,Tue
+760988,867551,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,15.0,estimated,Gladstone Branch,NJ Transit,2019-07-23,07:28:00,2019-07-23,07:43:00,Tue
+764819,871953,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-07-24,08:11:00,2019-07-24,08:14:00,Wed
+772046,880346,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-24,07:28:00,2019-07-24,07:28:00,Wed
+774311,882975,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-07-25,08:11:00,2019-07-25,08:13:00,Thu
+779030,888432,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-25,07:28:00,2019-07-25,07:27:00,Thu
+781495,891387,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-26,07:28:00,2019-07-26,07:27:00,Fri
+786725,897433,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-07-26,08:11:00,2019-07-26,08:13:00,Fri
+797667,909578,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2019-07-29,08:11:00,2019-07-29,08:18:00,Mon
+802389,915061,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-29,07:28:00,2019-07-29,07:27:00,Mon
+805496,918599,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-30,07:28:00,2019-07-30,07:27:00,Tue
+810173,924005,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-07-30,08:11:00,2019-07-30,08:16:00,Tue
+812709,926941,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-07-31,07:28:00,2019-07-31,07:27:00,Wed
+819977,935328,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-07-31,08:11:00,2019-07-31,08:14:00,Wed
+831244,948025,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-03,08:11:00,2019-06-03,08:10:00,Mon
+834481,951730,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-03,07:28:00,2019-06-03,07:27:00,Mon
+838655,956371,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-06-04,08:11:00,2019-06-04,08:16:00,Tue
+843541,961996,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-04,07:28:00,2019-06-04,07:27:00,Tue
+846132,964836,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-06-05,08:11:00,2019-06-05,08:16:00,Wed
+853922,973662,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-05,07:28:00,2019-06-05,07:27:00,Wed
+854253,974043,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-06,07:28:00,2019-06-06,07:27:00,Thu
+861445,982206,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-06-06,08:11:00,2019-06-06,08:12:00,Thu
+863978,985048,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-07,07:28:00,2019-06-07,07:27:00,Fri
+869388,991272,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-07,08:11:00,2019-06-07,08:11:00,Fri
+879208,1002357,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-10,07:28:00,2019-06-10,07:27:00,Mon
+887003,1011254,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.000000000000002,estimated,Gladstone Branch,NJ Transit,2019-06-10,08:11:00,2019-06-10,08:19:00,Mon
+889233,1013695,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-11,07:28:00,2019-06-11,07:28:00,Tue
+894027,1019223,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-11,08:11:00,2019-06-11,08:11:00,Tue
+896706,1022258,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-06-12,08:11:00,2019-06-12,08:12:00,Wed
+902092,1028289,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-12,07:28:00,2019-06-12,07:27:00,Wed
+904935,1031482,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-06-13,08:11:00,2019-06-13,08:14:00,Thu
+912057,1039511,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-13,07:28:00,2019-06-13,07:27:00,Thu
+916038,1044226,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,14.0,estimated,Gladstone Branch,NJ Transit,2019-06-14,08:11:00,2019-06-14,08:25:00,Fri
+917244,1045703,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-14,07:28:00,2019-06-14,07:27:00,Fri
+932586,1063046,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-17,07:28:00,2019-06-17,07:27:00,Mon
+933347,1063984,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-06-17,08:11:00,2019-06-17,08:16:00,Mon
+940686,1072809,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-06-18,08:11:00,2019-06-18,08:15:00,Tue
+941566,1073915,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-18,07:28:00,2019-06-18,07:27:00,Tue
+948315,1081756,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-19,08:11:00,2019-06-19,08:11:00,Wed
+951279,1085296,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-19,07:28:00,2019-06-19,07:27:00,Wed
+955334,1089966,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-20,07:28:00,2019-06-20,07:27:00,Thu
+958502,1093632,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-06-20,08:11:00,2019-06-20,08:13:00,Thu
+965224,1101640,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-21,07:28:00,2019-06-21,07:27:00,Fri
+965967,1102557,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-06-21,08:11:00,2019-06-21,08:15:00,Fri
+979475,1118680,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-06-24,08:11:00,2019-06-24,08:15:00,Mon
+984821,1124887,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-24,07:28:00,2019-06-24,07:27:00,Mon
+986131,1126453,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2019-06-25,08:11:00,2019-06-25,08:18:00,Tue
+993050,1134514,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-06-25,07:28:00,2019-06-25,07:31:00,Tue
+994554,1136204,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-26,07:28:00,2019-06-26,07:27:00,Wed
+1001908,1144741,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-06-26,08:11:00,2019-06-26,08:14:00,Wed
+1003563,1146706,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-27,07:28:00,2019-06-27,07:27:00,Thu
+1008531,1152461,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-27,08:11:00,2019-06-27,08:10:00,Thu
+1011549,1155985,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-06-28,08:11:00,2019-06-28,08:14:00,Fri
+1016866,1162154,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-06-28,07:28:00,2019-06-28,07:27:00,Fri
+1034450,1181983,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-12-02,07:28:00,2019-12-02,07:31:00,Mon
+1037797,1185718,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-12-02,08:11:00,2019-12-02,08:13:00,Mon
+1043431,1191970,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-03,07:28:00,2019-12-03,07:27:00,Tue
+1044327,1192922,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-12-03,08:11:00,2019-12-03,08:15:00,Tue
+1048610,1197811,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-04,07:28:00,2019-12-04,07:27:00,Wed
+1056523,1206574,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-12-04,08:11:00,2019-12-04,08:14:00,Wed
+1058898,1209173,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-05,07:28:00,2019-12-05,07:27:00,Thu
+1063750,1214568,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-12-05,08:11:00,2019-12-05,08:13:00,Thu
+1066474,1217723,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,26.0,estimated,Gladstone Branch,NJ Transit,2019-12-06,08:11:00,2019-12-06,08:37:00,Fri
+1072073,1223914,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-06,07:28:00,2019-12-06,07:27:00,Fri
+1084092,1237092,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2019-12-09,07:28:00,2019-12-09,07:35:00,Mon
+1089548,1243045,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2019-12-09,08:11:00,2019-12-09,08:17:00,Mon
+1092880,1246756,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-10,08:11:00,2019-12-10,08:11:00,Tue
+1097875,1252229,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-10,07:28:00,2019-12-10,07:27:00,Tue
+1100650,1255242,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-12-11,08:11:00,2019-12-11,08:15:00,Wed
+1108442,1263896,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-11,07:28:00,2019-12-11,07:27:00,Wed
+1108776,1264346,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,12.0,estimated,Gladstone Branch,NJ Transit,2019-12-12,07:28:00,2019-12-12,07:40:00,Thu
+1116030,1272543,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-12-12,08:11:00,2019-12-12,08:15:00,Thu
+1118420,1275174,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-12-13,07:28:00,2019-12-13,07:31:00,Fri
+1123890,1281318,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-12-13,08:11:00,2019-12-13,08:14:00,Fri
+1137961,1297172,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-12-16,08:11:00,2019-12-16,08:14:00,Mon
+1138930,1298217,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-12-16,07:28:00,2019-12-16,07:30:00,Mon
+1144953,1304953,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-17,08:11:00,2019-12-17,08:11:00,Tue
+1147872,1308285,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,9.0,estimated,Gladstone Branch,NJ Transit,2019-12-17,07:28:00,2019-12-17,07:37:00,Tue
+1152796,1313677,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-12-18,07:28:00,2019-12-18,07:30:00,Wed
+1155967,1317182,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-18,08:11:00,2019-12-18,08:11:00,Wed
+1162536,1324586,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,19.0,estimated,Gladstone Branch,NJ Transit,2019-12-19,07:28:00,2019-12-19,07:47:00,Thu
+1163506,1325726,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.000000000000002,estimated,Gladstone Branch,NJ Transit,2019-12-19,08:11:00,2019-12-19,08:19:00,Thu
+1171159,1334364,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-12-20,08:11:00,2019-12-20,08:13:00,Fri
+1171832,1335080,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2019-12-20,07:28:00,2019-12-20,07:35:00,Fri
+1188921,1353618,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-12-23,07:28:00,2019-12-23,07:33:00,Mon
+1190018,1354899,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-12-23,08:11:00,2019-12-23,08:12:00,Mon
+1194121,1359555,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-24,07:28:00,2019-12-24,07:27:00,Tue
+1201051,1367287,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-12-24,08:11:00,2019-12-24,08:12:00,Tue
+1207895,1375014,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-12-26,08:11:00,2019-12-26,08:14:00,Thu
+1213167,1380839,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-26,07:28:00,2019-12-26,07:27:00,Thu
+1214541,1382331,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-12-27,08:11:00,2019-12-27,08:12:00,Fri
+1222141,1390788,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-27,07:28:00,2019-12-27,07:27:00,Fri
+1233359,1403183,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-12-30,08:11:00,2019-12-30,08:12:00,Mon
+1239013,1409392,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-30,07:28:00,2019-12-30,07:27:00,Mon
+1240567,1411127,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-31,08:11:00,2019-12-31,08:11:00,Tue
+1247612,1419131,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-12-31,07:28:00,2019-12-31,07:28:00,Tue
+1248640,1420392,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-01,07:28:00,2019-04-01,07:27:00,Mon
+1255916,1428532,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-04-01,08:11:00,2019-04-01,08:14:00,Mon
+1257306,1430092,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-04-02,08:11:00,2019-04-02,08:14:00,Tue
+1264473,1438258,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,14.0,estimated,Gladstone Branch,NJ Transit,2019-04-02,07:28:00,2019-04-02,07:42:00,Tue
+1266094,1440086,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2019-04-03,08:11:00,2019-04-03,08:12:00,Wed
+1271136,1445730,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-03,07:28:00,2019-04-03,07:27:00,Wed
+1275241,1450413,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-04-04,08:11:00,2019-04-04,08:16:00,Thu
+1278202,1453793,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-04,07:28:00,2019-04-04,07:27:00,Thu
+1285059,1461552,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-04-05,08:11:00,2019-04-05,08:14:00,Fri
+1285984,1462548,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-05,07:28:00,2019-04-05,07:27:00,Fri
+1300411,1478596,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2019-04-08,08:11:00,2019-04-08,08:13:00,Mon
+1303787,1482427,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-08,07:28:00,2019-04-08,07:27:00,Mon
+1309540,1488955,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2019-04-09,08:11:00,2019-04-09,08:12:00,Tue
+1310263,1489772,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-09,07:28:00,2019-04-09,07:27:00,Tue
+1317390,1497599,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-10,07:28:00,2019-04-10,07:27:00,Wed
+1318262,1498578,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-10,08:11:00,2019-04-10,08:10:00,Wed
+1324761,1505889,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-11,07:28:00,2019-04-11,07:27:00,Thu
+1327801,1509313,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-04-11,08:11:00,2019-04-11,08:14:00,Thu
+1332750,1515049,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2019-04-12,08:11:00,2019-04-12,08:15:00,Fri
+1335680,1518406,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-12,07:28:00,2019-04-12,07:27:00,Fri
+1348270,1532238,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-04-15,08:11:00,2019-04-15,08:14:00,Mon
+1353122,1538120,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-15,07:28:00,2019-04-15,07:27:00,Mon
+1356729,1542171,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-16,07:28:00,2019-04-16,07:27:00,Tue
+1361435,1547545,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-04-16,08:11:00,2019-04-16,08:16:00,Tue
+1362757,1549054,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-17,07:28:00,2019-04-17,07:28:00,Wed
+1370257,1557530,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2019-04-17,08:11:00,2019-04-17,08:17:00,Wed
+1371166,1558547,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-04-18,08:11:00,2019-04-18,08:14:00,Thu
+1378032,1566304,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-18,07:28:00,2019-04-18,07:27:00,Thu
+1380621,1569247,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2019-04-19,08:11:00,2019-04-19,08:15:00,Fri
+1385753,1575102,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-19,07:28:00,2019-04-19,07:27:00,Fri
+1395021,1585399,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2019-04-22,08:11:00,2019-04-22,08:19:00,Mon
+1402165,1593457,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-22,07:28:00,2019-04-22,07:27:00,Mon
+1404391,1595933,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2019-04-23,08:11:00,2019-04-23,08:13:00,Tue
+1409545,1601810,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-23,07:28:00,2019-04-23,07:27:00,Tue
+1413891,1606791,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-04-24,08:11:00,2019-04-24,08:14:00,Wed
+1416918,1610141,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-24,07:28:00,2019-04-24,07:27:00,Wed
+1422364,1616333,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-04-25,08:11:00,2019-04-25,08:14:00,Thu
+1423335,1617444,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-25,07:28:00,2019-04-25,07:28:00,Thu
+1430957,1625913,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2019-04-26,07:28:00,2019-04-26,07:30:00,Fri
+1431724,1626754,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,9.0,estimated,Gladstone Branch,NJ Transit,2019-04-26,08:11:00,2019-04-26,08:20:00,Fri
+1447387,1644643,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2019-04-29,08:11:00,2019-04-29,08:17:00,Mon
+1448644,1646107,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2019-04-29,07:28:00,2019-04-29,07:29:00,Mon
+1455503,1653787,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-30,07:28:00,2019-04-30,07:27:00,Tue
+1456527,1654968,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-04-30,08:11:00,2019-04-30,08:10:00,Tue
+1461075,1660307,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,10.0,estimated,Gladstone Branch,NJ Transit,2019-10-01,08:11:00,2019-10-01,08:21:00,Tue
+1466265,1666150,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2019-10-01,07:28:00,2019-10-01,07:35:00,Tue
+1469884,1670242,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-10-02,07:28:00,2019-10-02,07:30:00,Wed
+1474885,1675919,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-10-02,08:11:00,2019-10-02,08:14:00,Wed
+1476391,1677686,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-10-03,07:28:00,2019-10-03,07:32:00,Thu
+1483843,1686079,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-10-03,08:11:00,2019-10-03,08:11:00,Thu
+1487897,1690655,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-10-04,07:28:00,2019-10-04,07:29:00,Fri
+1488748,1691625,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-10-04,08:11:00,2019-10-04,08:12:00,Fri
+1505704,1710780,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-10-07,08:11:00,2019-10-07,08:14:00,Mon
+1506942,1712123,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-10-07,07:28:00,2019-10-07,07:29:00,Mon
+1514014,1720049,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-10-08,07:28:00,2019-10-08,07:28:00,Tue
+1514661,1720844,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,11.0,estimated,Gladstone Branch,NJ Transit,2019-10-08,08:11:00,2019-10-08,08:22:00,Tue
+1520348,1727364,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-10-09,07:28:00,2019-10-09,07:28:00,Wed
+1523686,1731129,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-10-09,08:11:00,2019-10-09,08:11:00,Wed
+1528836,1737151,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.000000000000002,estimated,Gladstone Branch,NJ Transit,2019-10-10,08:11:00,2019-10-10,08:19:00,Thu
+1531932,1740639,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-10-10,07:28:00,2019-10-10,07:30:00,Thu
+1538957,1748668,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,67.00000000000001,estimated,Gladstone Branch,NJ Transit,2019-10-11,08:11:00,2019-10-11,09:18:00,Fri
+1539871,1749696,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2019-10-11,07:28:00,2019-10-11,07:35:00,Fri
+1553603,1765068,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-10-14,07:28:00,2019-10-14,07:33:00,Mon
+1558767,1771138,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-10-14,08:11:00,2019-10-14,08:13:00,Mon
+1559928,1772619,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-10-15,07:28:00,2019-10-15,07:32:00,Tue
+1566944,1780639,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-10-15,08:11:00,2019-10-15,08:12:00,Tue
+1568325,1782194,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-10-16,08:11:00,2019-10-16,08:15:00,Wed
+1575963,1790800,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-10-16,07:28:00,2019-10-16,07:30:00,Wed
+1577701,1792859,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,13.0,estimated,Gladstone Branch,NJ Transit,2019-10-17,08:11:00,2019-10-17,08:24:00,Thu
+1582527,1798269,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-10-17,07:28:00,2019-10-17,07:31:00,Thu
+1585639,1801823,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-10-18,07:28:00,2019-10-18,07:28:00,Fri
+1591253,1808195,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-10-18,08:11:00,2019-10-18,08:14:00,Fri
+1603306,1821561,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-10-21,08:11:00,2019-10-21,08:14:00,Mon
+1608492,1827569,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-10-21,07:28:00,2019-10-21,07:27:00,Mon
+1610934,1830350,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-10-22,07:28:00,2019-10-22,07:28:00,Tue
+1616203,1836327,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2019-10-22,08:11:00,2019-10-22,08:18:00,Tue
+1618895,1839323,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-10-23,07:28:00,2019-10-23,07:30:00,Wed
+1626063,1847541,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2019-10-23,08:11:00,2019-10-23,08:17:00,Wed
+1629894,1851800,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-10-24,07:28:00,2019-10-24,07:27:00,Thu
+1630891,1852953,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-10-24,08:11:00,2019-10-24,08:15:00,Thu
+1636740,1859621,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-10-25,07:28:00,2019-10-25,07:28:00,Fri
+1639885,1863190,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2019-10-25,08:11:00,2019-10-25,08:17:00,Fri
+1654736,1879728,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-10-28,07:28:00,2019-10-28,07:28:00,Mon
+1655851,1881010,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-10-28,08:11:00,2019-10-28,08:14:00,Mon
+1662789,1888869,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-10-29,07:28:00,2019-10-29,07:28:00,Tue
+1665616,1892135,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-10-29,08:11:00,2019-10-29,08:14:00,Tue
+1671074,1898484,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-10-30,08:11:00,2019-10-30,08:16:00,Wed
+1674230,1902052,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-10-30,07:28:00,2019-10-30,07:27:00,Wed
+1679785,1908367,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-10-31,08:11:00,2019-10-31,08:16:00,Thu
+1680702,1909499,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-10-31,07:28:00,2019-10-31,07:27:00,Thu
+1685144,1914460,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,11.0,estimated,Gladstone Branch,NJ Transit,2019-11-01,08:11:00,2019-11-01,08:22:00,Fri
+1692833,1923254,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-11-01,07:28:00,2019-11-01,07:28:00,Fri
+1704429,1936151,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-11-04,07:28:00,2019-11-04,07:31:00,Mon
+1707364,1939610,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,16.000000000000004,estimated,Gladstone Branch,NJ Transit,2019-11-04,08:11:00,2019-11-04,08:27:00,Mon
+1712955,1945917,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-11-05,07:28:00,2019-11-05,07:29:00,Tue
+1714134,1947223,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-11-05,08:11:00,2019-11-05,08:15:00,Tue
+1722312,1956516,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-11-06,08:11:00,2019-11-06,08:14:00,Wed
+1723196,1957496,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-11-06,07:28:00,2019-11-06,07:27:00,Wed
+1729239,1964313,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-11-07,08:11:00,2019-11-07,08:16:00,Thu
+1732428,1967901,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-11-07,07:28:00,2019-11-07,07:27:00,Thu
+1737488,1973443,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-11-08,07:28:00,2019-11-08,07:29:00,Fri
+1740753,1977083,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-11-08,08:11:00,2019-11-08,08:13:00,Fri
+1755104,1993196,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-11-11,08:11:00,2019-11-11,08:12:00,Mon
+1758191,1996654,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-11-11,07:28:00,2019-11-11,07:31:00,Mon
+1763827,2002794,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,19.0,estimated,Gladstone Branch,NJ Transit,2019-11-12,07:28:00,2019-11-12,07:47:00,Tue
+1766922,2006201,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-11-12,08:11:00,2019-11-12,08:15:00,Tue
+1772765,2012674,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-11-13,07:28:00,2019-11-13,07:27:00,Wed
+1773687,2013677,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-11-13,08:11:00,2019-11-13,08:10:00,Wed
+1778090,2018663,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-11-14,07:28:00,2019-11-14,07:30:00,Thu
+1785680,2027038,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-11-14,08:11:00,2019-11-14,08:11:00,Thu
+1788150,2029775,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-11-15,07:28:00,2019-11-15,07:28:00,Fri
+1793406,2035694,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-11-15,08:11:00,2019-11-15,08:13:00,Fri
+1804399,2047933,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,25.0,estimated,Gladstone Branch,NJ Transit,2019-11-18,07:28:00,2019-11-18,07:53:00,Mon
+1812099,2056443,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,9.0,estimated,Gladstone Branch,NJ Transit,2019-11-18,08:11:00,2019-11-18,08:20:00,Mon
+1813474,2058012,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-11-19,07:28:00,2019-11-19,07:27:00,Tue
+1818587,2063657,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-11-19,08:11:00,2019-11-19,08:10:00,Tue
+1822313,2067767,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-11-20,08:11:00,2019-11-20,08:14:00,Wed
+1828016,2074039,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-11-20,07:28:00,2019-11-20,07:29:00,Wed
+1829555,2075743,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,10.0,estimated,Gladstone Branch,NJ Transit,2019-11-21,08:11:00,2019-11-21,08:21:00,Thu
+1836670,2083643,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-11-21,07:28:00,2019-11-21,07:29:00,Thu
+1838218,2085334,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-11-22,07:28:00,2019-11-22,07:28:00,Fri
+1846105,2093997,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,11.0,estimated,Gladstone Branch,NJ Transit,2019-11-22,08:11:00,2019-11-22,08:22:00,Fri
+1859323,2108291,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-11-25,07:28:00,2019-11-25,07:27:00,Mon
+1860031,2109094,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.000000000000002,estimated,Gladstone Branch,NJ Transit,2019-11-25,08:11:00,2019-11-25,08:19:00,Mon
+1867377,2117339,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-11-26,08:11:00,2019-11-26,08:10:00,Tue
+1868399,2118472,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-11-26,07:28:00,2019-11-26,07:33:00,Tue
+1875302,2126050,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-11-27,08:11:00,2019-11-27,08:12:00,Wed
+1878456,2129546,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-11-27,07:28:00,2019-11-27,07:27:00,Wed
+1889705,2141968,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-11-29,07:28:00,2019-11-29,07:30:00,Fri
+1890574,2142898,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-11-29,08:11:00,2019-11-29,08:10:00,Fri
+1901237,2154655,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-01,07:28:00,2019-05-01,07:27:00,Wed
+1906163,2160247,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-05-01,08:11:00,2019-05-01,08:12:00,Wed
+1908808,2163234,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-05-02,08:11:00,2019-05-02,08:14:00,Thu
+1913929,2169050,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-02,07:28:00,2019-05-02,07:27:00,Thu
+1916677,2172110,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-05-03,08:11:00,2019-05-03,08:12:00,Fri
+1924026,2180421,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-03,07:28:00,2019-05-03,07:27:00,Fri
+1935534,2193045,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-06,07:28:00,2019-05-06,07:28:00,Mon
+1938767,2196740,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-05-06,08:11:00,2019-05-06,08:14:00,Mon
+1944079,2202711,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-07,07:28:00,2019-05-07,07:27:00,Tue
+1944985,2203741,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.000000000000002,estimated,Gladstone Branch,NJ Transit,2019-05-07,08:11:00,2019-05-07,08:19:00,Tue
+1952274,2212108,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.000000000000002,estimated,Gladstone Branch,NJ Transit,2019-05-08,08:11:00,2019-05-08,08:19:00,Wed
+1953397,2213417,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-05-08,07:28:00,2019-05-08,07:29:00,Wed
+1960343,2221219,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-05-09,08:11:00,2019-05-09,08:15:00,Thu
+1963243,2224469,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-09,07:28:00,2019-05-09,07:27:00,Thu
+1968243,2230008,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-10,07:28:00,2019-05-10,07:27:00,Fri
+1971119,2233251,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-05-10,08:11:00,2019-05-10,08:14:00,Fri
+1984849,2248600,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-05-13,08:11:00,2019-05-13,08:12:00,Mon
+1988204,2252405,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-13,07:28:00,2019-05-13,07:28:00,Mon
+1992291,2257069,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-05-14,08:11:00,2019-05-14,08:16:00,Tue
+1997032,2262500,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-14,07:28:00,2019-05-14,07:27:00,Tue
+1999638,2265333,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-05-15,08:11:00,2019-05-15,08:15:00,Wed
+2007438,2274142,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-05-15,07:28:00,2019-05-15,07:29:00,Wed
+2007769,2274540,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-16,07:28:00,2019-05-16,07:27:00,Thu
+2014764,2282433,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-05-16,08:11:00,2019-05-16,08:14:00,Thu
+2017255,2285282,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-17,07:28:00,2019-05-17,07:27:00,Fri
+2022484,2291593,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-17,08:11:00,2019-05-17,08:11:00,Fri
+2033311,2303651,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-20,07:28:00,2019-05-20,07:27:00,Mon
+2040564,2311894,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-05-20,08:11:00,2019-05-20,08:15:00,Mon
+2042171,2313796,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-05-21,07:28:00,2019-05-21,07:30:00,Tue
+2047382,2319705,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-05-21,08:11:00,2019-05-21,08:14:00,Tue
+2050926,2323772,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-05-22,08:11:00,2019-05-22,08:15:00,Wed
+2056258,2329728,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-22,07:28:00,2019-05-22,07:27:00,Wed
+2057674,2331401,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2019-05-23,08:11:00,2019-05-23,08:18:00,Thu
+2064932,2339625,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-23,07:28:00,2019-05-23,07:27:00,Thu
+2069586,2345002,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-24,08:11:00,2019-05-24,08:11:00,Fri
+2070368,2345845,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-24,07:28:00,2019-05-24,07:27:00,Fri
+2092235,2370328,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-05-28,08:11:00,2019-05-28,08:13:00,Tue
+2093158,2371308,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-28,07:28:00,2019-05-28,07:27:00,Tue
+2098794,2377774,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,29.0,estimated,Gladstone Branch,NJ Transit,2019-05-29,08:11:00,2019-05-29,08:40:00,Wed
+2101880,2381357,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-05-29,07:28:00,2019-05-29,07:30:00,Wed
+2106701,2386692,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-30,07:28:00,2019-05-30,07:27:00,Thu
+2110123,2390527,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-05-30,08:11:00,2019-05-30,08:16:00,Thu
+2117100,2398360,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-05-31,07:28:00,2019-05-31,07:27:00,Fri
+2117781,2399113,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,10.0,estimated,Gladstone Branch,NJ Transit,2019-05-31,08:11:00,2019-05-31,08:21:00,Fri
+2138721,2421844,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-09-04,08:11:00,2018-09-04,08:16:00,Tue
+2144697,2428304,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-04,07:28:00,2018-09-04,07:28:00,Tue
+2146477,2430204,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-09-05,08:11:00,2018-09-05,08:15:00,Wed
+2153882,2438199,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-05,07:28:00,2018-09-05,07:27:00,Wed
+2155481,2439885,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-06,07:28:00,2018-09-06,07:27:00,Thu
+2163399,2448486,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-09-06,08:11:00,2018-09-06,08:12:00,Thu
+2165026,2450291,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-07,07:28:00,2018-09-07,07:27:00,Fri
+2170380,2456055,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-09-07,08:11:00,2018-09-07,08:13:00,Fri
+2182431,2469370,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,18.0,estimated,Gladstone Branch,NJ Transit,2018-09-10,07:28:00,2018-09-10,07:46:00,Mon
+2189642,2477733,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-09-10,08:11:00,2018-09-10,08:13:00,Mon
+2191453,2479825,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-11,07:28:00,2018-09-11,07:27:00,Tue
+2196801,2485932,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2018-09-11,08:11:00,2018-09-11,08:18:00,Tue
+2200441,2489909,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-09-12,08:11:00,2018-09-12,08:14:00,Wed
+2205834,2495897,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-09-12,07:28:00,2018-09-12,07:29:00,Wed
+2207218,2497421,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-09-13,08:11:00,2018-09-13,08:12:00,Thu
+2214779,2505839,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-09-13,07:28:00,2018-09-13,07:30:00,Thu
+2219585,2511171,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-14,08:11:00,2018-09-14,08:11:00,Fri
+2220373,2512072,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-14,07:28:00,2018-09-14,07:28:00,Fri
+2238051,2531588,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-17,07:28:00,2018-09-17,07:28:00,Mon
+2239173,2532894,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2018-09-17,08:11:00,2018-09-17,08:18:00,Mon
+2246981,2541516,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-18,08:11:00,2018-09-18,08:10:00,Tue
+2247861,2542521,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-18,07:28:00,2018-09-18,07:27:00,Tue
+2253484,2548745,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,18.0,estimated,Gladstone Branch,NJ Transit,2018-09-19,08:11:00,2018-09-19,08:29:00,Wed
+2256952,2552621,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-19,07:28:00,2018-09-19,07:27:00,Wed
+2262853,2559147,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,14.0,estimated,Gladstone Branch,NJ Transit,2018-09-20,07:28:00,2018-09-20,07:42:00,Thu
+2265795,2562340,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,34.0,estimated,Gladstone Branch,NJ Transit,2018-09-20,08:11:00,2018-09-20,08:45:00,Thu
+2271755,2568971,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-21,07:28:00,2018-09-21,07:27:00,Fri
+2272975,2570338,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-09-21,08:11:00,2018-09-21,08:14:00,Fri
+2288145,2586933,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-24,08:11:00,2018-09-24,08:10:00,Mon
+2293228,2592704,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-24,07:28:00,2018-09-24,07:27:00,Mon
+2296144,2595993,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-09-25,08:11:00,2018-09-25,08:13:00,Tue
+2303764,2604525,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-25,07:28:00,2018-09-25,07:27:00,Tue
+2304180,2605046,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-09-26,07:28:00,2018-09-26,07:29:00,Wed
+2311853,2613527,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-09-26,08:11:00,2018-09-26,08:14:00,Wed
+2314289,2616205,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,24.0,estimated,Gladstone Branch,NJ Transit,2018-09-27,07:28:00,2018-09-27,07:52:00,Thu
+2319586,2622097,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,25.0,estimated,Gladstone Branch,NJ Transit,2018-09-27,08:11:00,2018-09-27,08:36:00,Thu
+2322600,2625457,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-09-28,08:11:00,2018-09-28,08:14:00,Fri
+2328103,2631536,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-09-28,07:28:00,2018-09-28,07:27:00,Fri
+2341334,2645996,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-01,07:28:00,2018-08-01,07:27:00,Wed
+2344790,2649670,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,12.0,estimated,Gladstone Branch,NJ Transit,2018-08-01,08:11:00,2018-08-01,08:23:00,Wed
+2351130,2656498,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-08-02,08:11:00,2018-08-02,08:14:00,Thu
+2354747,2660435,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-02,07:28:00,2018-08-02,07:27:00,Thu
+2360769,2667145,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,17.0,estimated,Gladstone Branch,NJ Transit,2018-08-03,08:11:00,2018-08-03,08:28:00,Fri
+2361576,2668026,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-08-03,07:28:00,2018-08-03,07:31:00,Fri
+2376889,2684946,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-06,07:28:00,2018-08-06,07:27:00,Mon
+2382526,2691362,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-06,08:11:00,2018-08-06,08:10:00,Mon
+2385399,2694489,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-07,07:28:00,2018-08-07,07:27:00,Tue
+2392860,2702607,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-08-07,08:11:00,2018-08-07,08:16:00,Tue
+2393907,2703714,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2018-08-08,08:11:00,2018-08-08,08:17:00,Wed
+2402266,2712795,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-08-08,07:28:00,2018-08-08,07:29:00,Wed
+2403648,2714302,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-08-09,08:11:00,2018-08-09,08:12:00,Thu
+2408818,2720080,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-09,07:28:00,2018-08-09,07:27:00,Thu
+2412406,2724088,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-10,07:28:00,2018-08-10,07:27:00,Fri
+2418032,2730299,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-10,08:11:00,2018-08-10,08:10:00,Fri
+2432030,2745463,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-13,08:11:00,2018-08-13,08:10:00,Mon
+2437787,2751840,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-13,07:28:00,2018-08-13,07:27:00,Mon
+2442587,2757042,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-08-14,08:11:00,2018-08-14,08:12:00,Tue
+2445950,2760651,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-14,07:28:00,2018-08-14,07:27:00,Tue
+2451998,2767230,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-08-15,08:11:00,2018-08-15,08:15:00,Wed
+2453049,2768370,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2018-08-15,07:28:00,2018-08-15,07:36:00,Wed
+2461538,2777430,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-16,07:28:00,2018-08-16,07:27:00,Thu
+2462387,2778335,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-16,08:11:00,2018-08-16,08:10:00,Thu
+2468712,2785234,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-17,07:28:00,2018-08-17,07:27:00,Fri
+2472422,2789317,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-17,08:11:00,2018-08-17,08:10:00,Fri
+2489247,2807867,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2018-08-20,07:28:00,2018-08-20,07:36:00,Mon
+2490124,2808756,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2018-08-20,08:11:00,2018-08-20,08:17:00,Mon
+2497356,2816604,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-21,07:28:00,2018-08-21,07:27:00,Tue
+2500828,2820405,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-21,08:11:00,2018-08-21,08:10:00,Tue
+2506148,2826217,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-08-22,08:11:00,2018-08-22,08:13:00,Wed
+2509341,2829646,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-22,07:28:00,2018-08-22,07:27:00,Wed
+2516591,2837431,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-23,08:11:00,2018-08-23,08:11:00,Thu
+2517890,2838841,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-23,07:28:00,2018-08-23,07:27:00,Thu
+2522128,2843449,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-24,08:11:00,2018-08-24,08:10:00,Fri
+2530108,2852322,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-24,07:28:00,2018-08-24,07:27:00,Fri
+2539752,2863135,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-27,07:28:00,2018-08-27,07:27:00,Mon
+2548065,2872383,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-08-27,08:11:00,2018-08-27,08:12:00,Mon
+2549020,2873425,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-08-28,08:11:00,2018-08-28,08:15:00,Tue
+2556574,2881610,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-28,07:28:00,2018-08-28,07:27:00,Tue
+2559392,2884639,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-29,08:11:00,2018-08-29,08:11:00,Wed
+2565333,2891070,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-29,07:28:00,2018-08-29,07:27:00,Wed
+2568827,2894833,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,21.0,estimated,Gladstone Branch,NJ Transit,2018-08-30,07:28:00,2018-08-30,07:49:00,Thu
+2574329,2900876,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-30,08:11:00,2018-08-30,08:11:00,Thu
+2575693,2902401,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-31,07:28:00,2018-08-31,07:27:00,Fri
+2583605,2911301,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-08-31,08:11:00,2018-08-31,08:10:00,Fri
+2586830,2914763,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-01,07:28:00,2018-03-01,07:27:00,Thu
+2592418,2920652,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-03-01,08:11:00,2018-03-01,08:12:00,Thu
+2595324,2923761,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2018-03-02,08:11:00,2018-03-02,08:18:00,Fri
+2601109,2930108,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-02,07:28:00,2018-03-02,07:27:00,Fri
+2616068,2946184,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-03-05,08:11:00,2018-03-05,08:16:00,Mon
+2619545,2949930,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-05,07:28:00,2018-03-05,07:27:00,Mon
+2625861,2956512,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-06,07:28:00,2018-03-06,07:28:00,Tue
+2629605,2960433,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-06,08:11:00,2018-03-06,08:10:00,Tue
+2633791,2965183,8406,22.0,Secaucus Upper Lvl,38187.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2018-03-07,07:54:00,2018-03-07,08:01:00,Wed
+2635652,2967620,8404,22.0,Secaucus Upper Lvl,38187.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-03-07,07:11:00,2018-03-07,07:14:00,Wed
+2639247,2972545,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-08,07:28:00,2018-03-08,07:28:00,Thu
+2643871,2977916,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-03-09,08:11:00,2018-03-09,08:13:00,Fri
+2647402,2981694,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-09,07:28:00,2018-03-09,07:28:00,Fri
+2663392,2999468,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-12,08:11:00,2018-03-12,08:10:00,Mon
+2664364,3000492,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-12,07:28:00,2018-03-12,07:27:00,Mon
+2670909,3007396,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2018-03-13,08:11:00,2018-03-13,08:17:00,Tue
+2674445,3011119,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,12.0,estimated,Gladstone Branch,NJ Transit,2018-03-13,07:28:00,2018-03-13,07:40:00,Tue
+2679219,3016084,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-14,08:11:00,2018-03-14,08:10:00,Wed
+2684977,3022190,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,11.0,estimated,Gladstone Branch,NJ Transit,2018-03-14,07:28:00,2018-03-14,07:39:00,Wed
+2687725,3025061,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-03-15,08:11:00,2018-03-15,08:14:00,Thu
+2696168,3033997,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-03-15,07:28:00,2018-03-15,07:29:00,Thu
+2696565,3034418,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-16,07:28:00,2018-03-16,07:28:00,Fri
+2705074,3043480,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-16,08:11:00,2018-03-16,08:11:00,Fri
+2716314,3055622,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-03-19,08:11:00,2018-03-19,08:12:00,Mon
+2724949,3064668,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-19,07:28:00,2018-03-19,07:27:00,Mon
+2726810,3066593,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-20,07:28:00,2018-03-20,07:27:00,Tue
+2734826,3075039,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-20,08:11:00,2018-03-20,08:10:00,Tue
+2737932,3078362,8406,22.0,Secaucus Upper Lvl,38187.0,New York Penn Station,105.0,11.0,estimated,Gladstone Branch,NJ Transit,2018-03-21,07:54:00,2018-03-21,08:05:00,Wed
+2741030,3081749,8404,22.0,Secaucus Upper Lvl,38187.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-03-21,07:11:00,2018-03-21,07:12:00,Wed
+2743605,3084515,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2018-03-22,08:11:00,2018-03-22,08:19:00,Thu
+2749310,3090650,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-22,07:28:00,2018-03-22,07:27:00,Thu
+2751272,3092756,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-23,08:11:00,2018-03-23,08:11:00,Fri
+2759749,3101682,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-23,07:28:00,2018-03-23,07:27:00,Fri
+2773298,3116109,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-26,07:28:00,2018-03-26,07:27:00,Mon
+2776844,3119876,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-26,08:11:00,2018-03-26,08:11:00,Mon
+2784518,3127928,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-27,07:28:00,2018-03-27,07:27:00,Tue
+2785605,3129051,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-03-27,08:11:00,2018-03-27,08:14:00,Tue
+2794131,3138131,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-03-28,08:11:00,2018-03-28,08:14:00,Wed
+2795029,3139063,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-28,07:28:00,2018-03-28,07:28:00,Wed
+2801786,3146159,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-29,08:11:00,2018-03-29,08:10:00,Thu
+2805381,3149931,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-29,07:28:00,2018-03-29,07:27:00,Thu
+2811045,3155853,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-03-30,07:28:00,2018-03-30,07:27:00,Fri
+2815017,3159975,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-03-30,08:11:00,2018-03-30,08:15:00,Fri
+2827705,3173507,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-05-01,08:11:00,2018-05-01,08:15:00,Tue
+2828608,3174434,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-05-01,07:28:00,2018-05-01,07:29:00,Tue
+2836150,3182346,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,14.0,estimated,Gladstone Branch,NJ Transit,2018-05-02,07:28:00,2018-05-02,07:42:00,Wed
+2837452,3183779,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,30.0,estimated,Gladstone Branch,NJ Transit,2018-05-02,08:11:00,2018-05-02,08:41:00,Wed
+2845097,3191924,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-05-03,07:28:00,2018-05-03,07:32:00,Thu
+2848236,3195258,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-05-03,08:11:00,2018-05-03,08:13:00,Thu
+2852935,3200199,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,11.0,estimated,Gladstone Branch,NJ Transit,2018-05-04,07:28:00,2018-05-04,07:39:00,Fri
+2858995,3206651,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2018-05-04,08:11:00,2018-05-04,08:19:00,Fri
+2871729,3220651,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-05-07,08:11:00,2018-05-07,08:16:00,Mon
+2877338,3226668,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-07,07:28:00,2018-05-07,07:27:00,Mon
+2881013,3230516,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-08,07:28:00,2018-05-08,07:27:00,Tue
+2886922,3236747,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-08,08:11:00,2018-05-08,08:11:00,Tue
+2889912,3239908,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-05-09,07:28:00,2018-05-09,07:30:00,Wed
+2898205,3248620,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2018-05-09,08:11:00,2018-05-09,08:17:00,Wed
+2899284,3249765,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-05-10,08:11:00,2018-05-10,08:16:00,Thu
+2907412,3258328,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,14.0,estimated,Gladstone Branch,NJ Transit,2018-05-10,07:28:00,2018-05-10,07:42:00,Thu
+2908996,3259985,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-05-11,08:11:00,2018-05-11,08:13:00,Fri
+2915002,3266362,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-11,07:28:00,2018-05-11,07:27:00,Fri
+2930944,3283659,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-14,07:28:00,2018-05-14,07:27:00,Mon
+2931954,3284730,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2018-05-14,08:11:00,2018-05-14,08:17:00,Mon
+2939674,3292877,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-15,07:28:00,2018-05-15,07:27:00,Tue
+2943100,3296560,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-15,08:11:00,2018-05-15,08:11:00,Tue
+2948597,3302417,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-16,08:11:00,2018-05-16,08:11:00,Wed
+2952046,3306073,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-16,07:28:00,2018-05-16,07:27:00,Wed
+2959479,3313872,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-17,08:11:00,2018-05-17,08:10:00,Thu
+2960690,3315146,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-17,07:28:00,2018-05-17,07:27:00,Thu
+2969051,3323870,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-18,07:28:00,2018-05-18,07:27:00,Fri
+2969913,3324804,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-18,08:11:00,2018-05-18,08:11:00,Fri
+2988233,3343768,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-05-21,08:11:00,2018-05-21,08:13:00,Mon
+2989398,3344969,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-21,07:28:00,2018-05-21,07:27:00,Mon
+2998297,3354115,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-22,07:28:00,2018-05-22,07:27:00,Tue
+2999048,3354899,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-22,08:11:00,2018-05-22,08:10:00,Tue
+3005477,3361667,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-23,07:28:00,2018-05-23,07:28:00,Wed
+3009427,3365790,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-23,08:11:00,2018-05-23,08:10:00,Wed
+3014194,3370863,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-24,07:28:00,2018-05-24,07:27:00,Thu
+3019743,3376726,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-05-24,08:11:00,2018-05-24,08:12:00,Thu
+3022465,3379609,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-25,07:28:00,2018-05-25,07:27:00,Fri
+3031077,3388848,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-25,08:11:00,2018-05-25,08:11:00,Fri
+3046819,3406007,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-29,07:28:00,2018-05-29,07:27:00,Tue
+3055527,3415220,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-29,08:11:00,2018-05-29,08:10:00,Tue
+3056329,3416059,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-05-30,08:11:00,2018-05-30,08:15:00,Wed
+3064521,3424691,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-30,07:28:00,2018-05-30,07:27:00,Wed
+3067668,3427976,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-05-31,08:11:00,2018-05-31,08:14:00,Thu
+3073484,3434103,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-05-31,07:28:00,2018-05-31,07:27:00,Thu
+3077647,3438754,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-11-01,07:28:00,2018-11-01,07:27:00,Thu
+3080732,3442209,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,17.0,estimated,Gladstone Branch,NJ Transit,2018-11-01,08:11:00,2018-11-01,08:28:00,Thu
+3085574,3447952,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2018-11-02,08:11:00,2018-11-02,08:19:00,Fri
+3088439,3451175,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-11-02,07:28:00,2018-11-02,07:33:00,Fri
+3100546,3464519,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2018-11-05,08:11:00,2018-11-05,08:17:00,Mon
+3105777,3470502,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,13.0,estimated,Gladstone Branch,NJ Transit,2018-11-05,07:28:00,2018-11-05,07:41:00,Mon
+3109365,3474527,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,10.0,estimated,Gladstone Branch,NJ Transit,2018-11-06,07:28:00,2018-11-06,07:38:00,Tue
+3114130,3479926,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,31.0,estimated,Gladstone Branch,NJ Transit,2018-11-06,08:11:00,2018-11-06,08:42:00,Tue
+3115842,3481908,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-11-07,07:28:00,2018-11-07,07:27:00,Wed
+3123383,3490422,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-11-07,08:11:00,2018-11-07,08:15:00,Wed
+3124401,3491589,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2018-11-08,08:11:00,2018-11-08,08:17:00,Thu
+3131212,3499239,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-11-08,07:28:00,2018-11-08,07:27:00,Thu
+3133486,3501849,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-11-09,08:11:00,2018-11-09,08:15:00,Fri
+3139053,3508118,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-11-09,07:28:00,2018-11-09,07:27:00,Fri
+3158080,3529691,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,17.0,estimated,Gladstone Branch,NJ Transit,2018-11-13,08:11:00,2018-11-13,08:28:00,Tue
+3162584,3534967,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,23.0,estimated,Gladstone Branch,NJ Transit,2018-11-13,07:28:00,2018-11-13,07:51:00,Tue
+3166836,3539872,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2018-11-14,08:11:00,2018-11-14,08:17:00,Wed
+3170075,3543516,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-11-14,07:28:00,2018-11-14,07:27:00,Wed
+3176583,3551009,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-11-15,08:11:00,2018-11-15,08:14:00,Thu
+3177398,3551939,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-11-15,07:28:00,2018-11-15,07:27:00,Thu
+3199102,3578186,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-11-19,08:11:00,2018-11-19,08:16:00,Mon
+3199806,3578988,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-11-19,07:28:00,2018-11-19,07:30:00,Mon
+3207473,3587546,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-11-20,07:28:00,2018-11-20,07:31:00,Tue
+3208403,3588646,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,10.0,estimated,Gladstone Branch,NJ Transit,2018-11-20,08:11:00,2018-11-20,08:21:00,Tue
+3213879,3595013,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-11-21,07:28:00,2018-11-21,07:33:00,Wed
+3216981,3598590,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-11-21,08:11:00,2018-11-21,08:13:00,Wed
+3228631,3612153,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-11-23,08:11:00,2018-11-23,08:13:00,Fri
+3229390,3613041,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,10.0,estimated,Gladstone Branch,NJ Transit,2018-11-23,07:28:00,2018-11-23,07:38:00,Fri
+3242454,3627578,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-11-26,07:28:00,2018-11-26,07:27:00,Mon
+3247621,3633598,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-11-26,08:11:00,2018-11-26,08:16:00,Mon
+3249956,3636260,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-11-27,07:28:00,2018-11-27,07:27:00,Tue
+3256707,3644063,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-11-27,08:11:00,2018-11-27,08:14:00,Tue
+3257614,3645094,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-11-28,08:11:00,2018-11-28,08:13:00,Wed
+3264998,3653595,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-11-28,07:28:00,2018-11-28,07:28:00,Wed
+3266644,3655497,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-11-29,08:11:00,2018-11-29,08:14:00,Thu
+3271360,3660891,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-11-29,07:28:00,2018-11-29,07:29:00,Thu
+3274561,3664499,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-11-30,07:28:00,2018-11-30,07:28:00,Fri
+3279736,3670468,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,30.0,estimated,Gladstone Branch,NJ Transit,2018-11-30,08:11:00,2018-11-30,08:41:00,Fri
+3286399,3678015,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2020-01-02,08:11:00,2020-01-02,08:17:00,Thu
+3294425,3686923,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-02,07:28:00,2020-01-02,07:27:00,Thu
+3296259,3688974,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2020-01-03,08:11:00,2020-01-03,08:13:00,Fri
+3301211,3694423,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-03,07:28:00,2020-01-03,07:27:00,Fri
+3315322,3709824,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-06,07:28:00,2020-01-06,07:27:00,Mon
+3316574,3711215,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2020-01-06,08:11:00,2020-01-06,08:14:00,Mon
+3323233,3718583,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2020-01-07,07:28:00,2020-01-07,07:29:00,Tue
+3326124,3721734,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-07,08:11:00,2020-01-07,08:10:00,Tue
+3331575,3727950,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2020-01-08,08:11:00,2020-01-08,08:15:00,Wed
+3335104,3731897,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-08,07:28:00,2020-01-08,07:27:00,Wed
+3341200,3738681,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2020-01-09,08:11:00,2020-01-09,08:12:00,Thu
+3341910,3739445,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2020-01-09,07:28:00,2020-01-09,07:29:00,Thu
+3349196,3747444,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,26.0,estimated,Gladstone Branch,NJ Transit,2020-01-10,07:28:00,2020-01-10,07:54:00,Fri
+3350068,3748363,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.000000000000002,estimated,Gladstone Branch,NJ Transit,2020-01-10,08:11:00,2020-01-10,08:19:00,Fri
+3367186,3767469,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2020-01-13,08:11:00,2020-01-13,08:14:00,Mon
+3368392,3768824,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2020-01-13,07:28:00,2020-01-13,07:34:00,Mon
+3372485,3773267,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2020-01-14,08:11:00,2020-01-14,08:13:00,Tue
+3379792,3781290,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-14,07:28:00,2020-01-14,07:28:00,Tue
+3381470,3783180,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,14.0,estimated,Gladstone Branch,NJ Transit,2020-01-15,08:11:00,2020-01-15,08:25:00,Wed
+3386891,3789155,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-15,07:28:00,2020-01-15,07:27:00,Wed
+3390705,3793361,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-16,07:28:00,2020-01-16,07:27:00,Thu
+3395671,3798801,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2020-01-16,08:11:00,2020-01-16,08:16:00,Thu
+3397148,3800492,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-17,07:28:00,2020-01-17,07:27:00,Fri
+3405263,3809481,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-17,08:11:00,2020-01-17,08:10:00,Fri
+3417256,3822465,8406,22.0,Secaucus Upper Lvl,38187.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-20,07:54:00,2020-01-20,07:54:00,Mon
+3419994,3825405,8404,22.0,Secaucus Upper Lvl,38187.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-20,07:11:00,2020-01-20,07:10:00,Mon
+3421325,3826817,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2020-01-21,07:28:00,2020-01-21,07:30:00,Tue
+3429095,3835439,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2020-01-21,08:11:00,2020-01-21,08:13:00,Tue
+3429603,3836026,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,12.0,estimated,Gladstone Branch,NJ Transit,2020-01-22,08:11:00,2020-01-22,08:23:00,Wed
+3436598,3843797,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-22,07:28:00,2020-01-22,07:27:00,Wed
+3439005,3846434,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2020-01-23,08:11:00,2020-01-23,08:14:00,Thu
+3444645,3852694,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-23,07:28:00,2020-01-23,07:27:00,Thu
+3449076,3857605,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2020-01-24,08:11:00,2020-01-24,08:17:00,Fri
+3452145,3860980,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-24,07:28:00,2020-01-24,07:27:00,Fri
+3465436,3875425,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-27,07:28:00,2020-01-27,07:27:00,Mon
+3468958,3879374,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-27,08:11:00,2020-01-27,08:11:00,Mon
+3474341,3885543,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2020-01-28,08:11:00,2020-01-28,08:13:00,Tue
+3477354,3888868,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-28,07:28:00,2020-01-28,07:27:00,Tue
+3484144,3896398,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2020-01-29,08:11:00,2020-01-29,08:17:00,Wed
+3485291,3897711,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2020-01-29,07:28:00,2020-01-29,07:30:00,Wed
+3492477,3905437,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-30,07:28:00,2020-01-30,07:27:00,Thu
+3493391,3906492,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2020-01-30,08:11:00,2020-01-30,08:13:00,Thu
+3499557,3913317,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-01-31,07:28:00,2020-01-31,07:27:00,Fri
+3502866,3916940,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2020-01-31,08:11:00,2020-01-31,08:13:00,Fri
+3509430,3924227,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,35.0,estimated,Gladstone Branch,NJ Transit,2018-10-01,07:28:00,2018-10-01,08:03:00,Mon
+3510605,3925587,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-01,08:11:00,2018-10-01,08:10:00,Mon
+3518822,3934783,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,13.0,estimated,Gladstone Branch,NJ Transit,2018-10-02,08:11:00,2018-10-02,08:24:00,Tue
+3519778,3935827,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2018-10-02,07:28:00,2018-10-02,07:34:00,Tue
+3525630,3942295,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-10-03,08:11:00,2018-10-03,08:12:00,Wed
+3528898,3945939,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-03,07:28:00,2018-10-03,07:27:00,Wed
+3533298,3950770,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-10-04,08:11:00,2018-10-04,08:14:00,Thu
+3538401,3956470,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-04,07:28:00,2018-10-04,07:27:00,Thu
+3540924,3959261,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,21.0,estimated,Gladstone Branch,NJ Transit,2018-10-05,08:11:00,2018-10-05,08:32:00,Fri
+3548948,3968180,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2018-10-05,07:28:00,2018-10-05,07:34:00,Fri
+3560800,3980993,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-10-08,08:11:00,2018-10-08,08:12:00,Mon
+3566101,3986937,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-08,07:28:00,2018-10-08,07:27:00,Mon
+3567575,3988637,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,9.0,estimated,Gladstone Branch,NJ Transit,2018-10-09,08:11:00,2018-10-09,08:20:00,Tue
+3575117,3996990,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-09,07:28:00,2018-10-09,07:27:00,Tue
+3575945,3997872,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-10,07:28:00,2018-10-10,07:27:00,Wed
+3583986,4006715,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-10-10,08:11:00,2018-10-10,08:12:00,Wed
+3586817,4009846,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-11,07:28:00,2018-10-11,07:27:00,Thu
+3591788,4015478,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-10-11,08:11:00,2018-10-11,08:13:00,Thu
+3594525,4018503,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,29.0,estimated,Gladstone Branch,NJ Transit,2018-10-12,08:11:00,2018-10-12,08:40:00,Fri
+3600189,4024796,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-12,07:28:00,2018-10-12,07:27:00,Fri
+3613170,4039419,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-10-15,08:11:00,2018-10-15,08:15:00,Mon
+3616067,4042696,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-10-15,07:28:00,2018-10-15,07:29:00,Mon
+3621442,4048698,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-10-16,07:28:00,2018-10-16,07:30:00,Tue
+3624425,4052081,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2018-10-16,08:11:00,2018-10-16,08:18:00,Tue
+3630133,4058599,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-17,07:28:00,2018-10-17,07:27:00,Wed
+3630999,4059579,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-17,08:11:00,2018-10-17,08:11:00,Wed
+3638478,4068237,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-10-18,08:11:00,2018-10-18,08:12:00,Thu
+3639396,4069287,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-18,07:28:00,2018-10-18,07:27:00,Thu
+3645920,4076661,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-10-19,08:11:00,2018-10-19,08:14:00,Fri
+3649022,4080154,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-19,07:28:00,2018-10-19,07:27:00,Fri
+3663013,4095980,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-10-22,08:11:00,2018-10-22,08:13:00,Mon
+3663979,4097163,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-22,07:28:00,2018-10-22,07:27:00,Mon
+3670844,4104982,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-10-23,08:11:00,2018-10-23,08:16:00,Tue
+3673779,4108304,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-23,07:28:00,2018-10-23,07:27:00,Tue
+3677386,4112351,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-10-24,08:11:00,2018-10-24,08:16:00,Wed
+3682769,4118466,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-24,07:28:00,2018-10-24,07:27:00,Wed
+3684478,4120444,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-10-25,08:11:00,2018-10-25,08:14:00,Thu
+3691268,4128182,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-25,07:28:00,2018-10-25,07:27:00,Thu
+3692769,4129902,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-10-26,07:28:00,2018-10-26,07:31:00,Fri
+3700120,4138388,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-10-26,08:11:00,2018-10-26,08:15:00,Fri
+3709450,4148558,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-10-29,08:11:00,2018-10-29,08:13:00,Mon
+3716648,4156710,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-29,07:28:00,2018-10-29,07:28:00,Mon
+3717501,4157720,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-10-30,07:28:00,2018-10-30,07:27:00,Tue
+3723990,4165168,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2018-10-30,08:11:00,2018-10-30,08:17:00,Tue
+3737630,4180442,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-04-02,07:28:00,2018-04-02,07:31:00,Mon
+3741420,4184520,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,21.0,estimated,Gladstone Branch,NJ Transit,2018-04-02,08:11:00,2018-04-02,08:32:00,Mon
+3747927,4191423,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-03,07:28:00,2018-04-03,07:27:00,Tue
+3748846,4192373,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-04-03,08:11:00,2018-04-03,08:12:00,Tue
+3753395,4197230,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-04,07:28:00,2018-04-04,07:27:00,Wed
+3762162,4206499,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-04-04,08:11:00,2018-04-04,08:14:00,Wed
+3765079,4209578,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-05,07:28:00,2018-04-05,07:27:00,Thu
+3770419,4215266,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-05,08:11:00,2018-04-05,08:10:00,Thu
+3773356,4218389,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-06,08:11:00,2018-04-06,08:10:00,Fri
+3779409,4224929,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-06,07:28:00,2018-04-06,07:27:00,Fri
+3793241,4239699,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-09,07:28:00,2018-04-09,07:27:00,Mon
+3799075,4245856,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-09,08:11:00,2018-04-09,08:10:00,Mon
+3802772,4249761,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-10,08:11:00,2018-04-10,08:10:00,Tue
+3808291,4255548,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-10,07:28:00,2018-04-10,07:27:00,Tue
+3810819,4258216,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-11,08:11:00,2018-04-11,08:10:00,Wed
+3819459,4267294,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-04-11,07:28:00,2018-04-11,07:32:00,Wed
+3819855,4267703,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-12,07:28:00,2018-04-12,07:27:00,Thu
+3827983,4276223,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,21.0,estimated,Gladstone Branch,NJ Transit,2018-04-12,08:11:00,2018-04-12,08:32:00,Thu
+3831132,4279596,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-13,07:28:00,2018-04-13,07:27:00,Fri
+3837117,4286117,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-13,08:11:00,2018-04-13,08:10:00,Fri
+3852457,4303287,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-16,08:11:00,2018-04-16,08:11:00,Mon
+3853481,4304356,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-16,07:28:00,2018-04-16,07:27:00,Mon
+3859726,4310994,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,17.0,estimated,Gladstone Branch,NJ Transit,2018-04-17,08:11:00,2018-04-17,08:28:00,Tue
+3863170,4314687,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,44.0,estimated,Gladstone Branch,NJ Transit,2018-04-17,07:28:00,2018-04-17,08:12:00,Tue
+3868727,4320547,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-18,07:28:00,2018-04-18,07:27:00,Wed
+3872209,4324250,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-18,08:11:00,2018-04-18,08:10:00,Wed
+3880077,4332554,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-04-19,07:28:00,2018-04-19,07:29:00,Thu
+3881225,4333807,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-04-19,08:11:00,2018-04-19,08:13:00,Thu
+3888933,4341942,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-20,08:11:00,2018-04-20,08:11:00,Fri
+3889754,4342789,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-20,07:28:00,2018-04-20,07:27:00,Fri
+3908361,4362759,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-23,07:28:00,2018-04-23,07:27:00,Mon
+3909546,4364021,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-04-23,08:11:00,2018-04-23,08:12:00,Mon
+3914564,4369337,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-24,07:28:00,2018-04-24,07:27:00,Tue
+3922403,4377547,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-04-24,08:11:00,2018-04-24,08:12:00,Tue
+3924055,4379293,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-25,07:28:00,2018-04-25,07:27:00,Wed
+3930169,4385714,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-25,08:11:00,2018-04-25,08:11:00,Wed
+3934084,4389842,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-04-26,08:11:00,2018-04-26,08:12:00,Thu
+3939711,4395730,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-26,07:28:00,2018-04-26,07:27:00,Thu
+3941635,4397762,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-27,08:11:00,2018-04-27,08:10:00,Fri
+3950283,4406979,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-27,07:28:00,2018-04-27,07:27:00,Fri
+3962299,4420157,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-04-30,08:11:00,2018-04-30,08:12:00,Mon
+3968329,4426486,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-04-30,07:28:00,2018-04-30,07:27:00,Mon
+3979739,4438962,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-12-03,08:11:00,2018-12-03,08:15:00,Mon
+3984607,4444564,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-12-03,07:28:00,2018-12-03,07:27:00,Mon
+3988941,4449544,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,9.0,estimated,Gladstone Branch,NJ Transit,2018-12-04,08:11:00,2018-12-04,08:20:00,Tue
+3991956,4453020,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-12-04,07:28:00,2018-12-04,07:30:00,Tue
+3998445,4460510,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,15.0,estimated,Gladstone Branch,NJ Transit,2018-12-05,08:11:00,2018-12-05,08:26:00,Wed
+3999309,4461469,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-12-05,07:28:00,2018-12-05,07:30:00,Wed
+4005532,4468570,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,11.0,estimated,Gladstone Branch,NJ Transit,2018-12-06,07:28:00,2018-12-06,07:39:00,Thu
+4006701,4469919,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-12-06,08:11:00,2018-12-06,08:11:00,Thu
+4013309,4477556,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-12-07,07:28:00,2018-12-07,07:27:00,Fri
+4016199,4480857,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-12-07,08:11:00,2018-12-07,08:16:00,Fri
+4030409,4496561,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-12-10,07:28:00,2018-12-10,07:27:00,Mon
+4031199,4497409,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2018-12-10,08:11:00,2018-12-10,08:19:00,Mon
+4038035,4505259,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-12-11,07:28:00,2018-12-11,07:33:00,Tue
+4041081,4508746,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-12-11,08:11:00,2018-12-11,08:14:00,Tue
+4045887,4514376,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,38.0,estimated,Gladstone Branch,NJ Transit,2018-12-12,08:11:00,2018-12-12,08:49:00,Wed
+4048694,4517533,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,43.0,estimated,Gladstone Branch,NJ Transit,2018-12-12,07:28:00,2018-12-12,08:11:00,Wed
+4054839,4524445,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,11.0,estimated,Gladstone Branch,NJ Transit,2018-12-13,08:11:00,2018-12-13,08:22:00,Thu
+4056063,4525809,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2018-12-13,07:28:00,2018-12-13,07:36:00,Thu
+4059988,4530243,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2018-12-14,08:11:00,2018-12-14,08:18:00,Fri
+4067132,4538015,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-12-14,07:28:00,2018-12-14,07:30:00,Fri
+4075976,4547438,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-12-17,07:28:00,2018-12-17,07:30:00,Mon
+4083375,4555758,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2018-12-17,08:11:00,2018-12-17,08:19:00,Mon
+4084245,4556782,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-12-18,08:11:00,2018-12-18,08:14:00,Tue
+4090906,4564214,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-12-18,07:28:00,2018-12-18,07:27:00,Tue
+4093138,4566669,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-12-19,08:11:00,2018-12-19,08:13:00,Wed
+4098422,4572542,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-12-19,07:28:00,2018-12-19,07:27:00,Wed
+4101090,4575540,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-12-20,07:28:00,2018-12-20,07:27:00,Thu
+4106019,4581143,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-12-20,08:11:00,2018-12-20,08:14:00,Thu
+4108214,4583727,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-12-21,07:28:00,2018-12-21,07:27:00,Fri
+4115473,4592266,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2018-12-21,08:11:00,2018-12-21,08:19:00,Fri
+4127047,4605000,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-12-24,08:11:00,2018-12-24,08:10:00,Mon
+4130021,4608521,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-12-24,07:28:00,2018-12-24,07:27:00,Mon
+4139013,4618580,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-12-26,07:28:00,2018-12-26,07:27:00,Wed
+4139418,4619115,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-12-26,08:11:00,2018-12-26,08:11:00,Wed
+4154694,4638642,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-01,08:11:00,2018-06-01,08:10:00,Fri
+4160476,4644796,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2018-06-01,07:28:00,2018-06-01,07:34:00,Fri
+4176222,4661720,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-04,07:28:00,2018-06-04,07:27:00,Mon
+4177196,4662754,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,9.0,estimated,Gladstone Branch,NJ Transit,2018-06-04,08:11:00,2018-06-04,08:20:00,Mon
+4184736,4670794,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,8.0,estimated,Gladstone Branch,NJ Transit,2018-06-05,07:28:00,2018-06-05,07:36:00,Tue
+4188216,4674538,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-05,08:11:00,2018-06-05,08:10:00,Tue
+4193610,4680362,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-06-06,08:11:00,2018-06-06,08:12:00,Wed
+4196828,4683881,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-06,07:28:00,2018-06-06,07:27:00,Wed
+4203939,4691497,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-06-07,08:11:00,2018-06-07,08:13:00,Thu
+4205133,4692775,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-07,07:28:00,2018-06-07,07:27:00,Thu
+4213085,4701320,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-06-08,07:28:00,2018-06-08,07:29:00,Fri
+4213913,4702241,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-06-08,08:11:00,2018-06-08,08:13:00,Fri
+4232320,4722166,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-06-11,08:11:00,2018-06-11,08:13:00,Mon
+4233333,4723249,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-11,07:28:00,2018-06-11,07:27:00,Mon
+4240651,4731101,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-06-12,07:28:00,2018-06-12,07:29:00,Tue
+4241809,4732325,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-06-12,08:11:00,2018-06-12,08:15:00,Tue
+4249330,4740394,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-13,07:28:00,2018-06-13,07:28:00,Wed
+4252659,4743967,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-06-13,08:11:00,2018-06-13,08:13:00,Wed
+4257173,4748841,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-14,07:28:00,2018-06-14,07:27:00,Thu
+4262693,4754859,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-14,08:11:00,2018-06-14,08:11:00,Thu
+4264502,4756809,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-15,07:28:00,2018-06-15,07:27:00,Fri
+4272780,4765754,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-15,08:11:00,2018-06-15,08:10:00,Fri
+4284420,4778800,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-18,07:28:00,2018-06-18,07:27:00,Mon
+4290206,4785167,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-06-18,08:11:00,2018-06-18,08:13:00,Mon
+4293153,4788317,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-19,07:28:00,2018-06-19,07:27:00,Tue
+4300749,4796474,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-06-19,08:11:00,2018-06-19,08:13:00,Tue
+4301027,4796766,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-06-20,08:11:00,2018-06-20,08:13:00,Wed
+4309320,4805708,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-20,07:28:00,2018-06-20,07:27:00,Wed
+4312277,4808926,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-06-21,08:11:00,2018-06-21,08:13:00,Thu
+4317650,4814748,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-21,07:28:00,2018-06-21,07:27:00,Thu
+4320512,4817933,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-22,07:28:00,2018-06-22,07:27:00,Fri
+4326522,4824384,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-22,08:11:00,2018-06-22,08:10:00,Fri
+4339647,4839033,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-25,07:28:00,2018-06-25,07:27:00,Mon
+4343118,4842753,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-25,08:11:00,2018-06-25,08:11:00,Mon
+4349559,4849675,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-26,08:11:00,2018-06-26,08:11:00,Tue
+4353220,4853559,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-26,07:28:00,2018-06-26,07:27:00,Tue
+4359873,4860644,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,11.0,estimated,Gladstone Branch,NJ Transit,2018-06-27,08:11:00,2018-06-27,08:22:00,Wed
+4360617,4861474,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-27,07:28:00,2018-06-27,07:27:00,Wed
+4368595,4869948,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-28,07:28:00,2018-06-28,07:27:00,Thu
+4369779,4871178,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-28,08:11:00,2018-06-28,08:10:00,Thu
+4376852,4878798,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-06-29,07:28:00,2018-06-29,07:27:00,Fri
+4380194,4882414,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-06-29,08:11:00,2018-06-29,08:13:00,Fri
+4400846,4905301,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2020-02-03,08:11:00,2020-02-03,08:12:00,Mon
+4402053,4906621,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2020-02-03,07:28:00,2020-02-03,07:29:00,Mon
+4406103,4911049,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2020-02-04,08:11:00,2020-02-04,08:18:00,Tue
+4413408,4919080,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,22.0,estimated,Gladstone Branch,NJ Transit,2020-02-04,07:28:00,2020-02-04,07:50:00,Tue
+4415016,4920912,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2020-02-05,08:11:00,2020-02-05,08:13:00,Wed
+4420582,4926998,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-05,07:28:00,2020-02-05,07:27:00,Wed
+4424391,4931194,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-06,07:28:00,2020-02-06,07:28:00,Thu
+4429273,4936547,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2020-02-06,08:11:00,2020-02-06,08:13:00,Thu
+4430831,4938330,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-07,07:28:00,2020-02-07,07:27:00,Fri
+4438812,4947157,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-07,08:11:00,2020-02-07,08:10:00,Fri
+4450271,4959504,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2020-02-10,07:28:00,2020-02-10,07:30:00,Mon
+4455821,4965584,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2020-02-10,08:11:00,2020-02-10,08:12:00,Mon
+4457146,4967108,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-11,07:28:00,2020-02-11,07:27:00,Tue
+4464303,4975093,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-11,08:11:00,2020-02-11,08:11:00,Tue
+4465706,4976623,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2020-02-12,08:11:00,2020-02-12,08:12:00,Wed
+4473671,4985385,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-12,07:28:00,2020-02-12,07:27:00,Wed
+4475497,4987445,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2020-02-13,08:11:00,2020-02-13,08:13:00,Thu
+4480455,4992916,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2020-02-13,07:28:00,2020-02-13,07:29:00,Thu
+4484739,4997679,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-14,08:11:00,2020-02-14,08:10:00,Fri
+4488158,5001442,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-14,07:28:00,2020-02-14,07:27:00,Fri
+4500181,5014328,8406,22.0,Secaucus Upper Lvl,38187.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-17,07:54:00,2020-02-17,07:53:00,Mon
+4503962,5018343,8404,22.0,Secaucus Upper Lvl,38187.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-17,07:11:00,2020-02-17,07:10:00,Mon
+4508655,5023549,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-18,08:11:00,2020-02-18,08:11:00,Tue
+4512215,5027461,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2020-02-18,07:28:00,2020-02-18,07:29:00,Tue
+4518432,5034341,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2020-02-19,08:11:00,2020-02-19,08:12:00,Wed
+4519056,5035046,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-19,07:28:00,2020-02-19,07:27:00,Wed
+4526858,5043409,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-20,07:28:00,2020-02-20,07:27:00,Thu
+4527903,5044585,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2020-02-20,08:11:00,2020-02-20,08:14:00,Thu
+4533954,5051295,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-21,07:28:00,2020-02-21,07:27:00,Fri
+4537065,5054784,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2020-02-21,08:11:00,2020-02-21,08:17:00,Fri
+4549115,5067884,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2020-02-24,08:11:00,2020-02-24,08:18:00,Mon
+4557004,5076566,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-24,07:28:00,2020-02-24,07:27:00,Mon
+4559415,5079251,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2020-02-25,08:11:00,2020-02-25,08:12:00,Tue
+4564512,5084865,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-25,07:28:00,2020-02-25,07:27:00,Tue
+4567118,5087765,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-26,07:28:00,2020-02-26,07:28:00,Wed
+4572746,5093944,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-26,08:11:00,2020-02-26,08:10:00,Wed
+4575565,5097004,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-27,07:28:00,2020-02-27,07:27:00,Thu
+4582726,5104934,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,11.0,estimated,Gladstone Branch,NJ Transit,2020-02-27,08:11:00,2020-02-27,08:22:00,Thu
+4583762,5106058,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2020-02-28,08:11:00,2020-02-28,08:15:00,Fri
+4591788,5114922,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2020-02-28,07:28:00,2020-02-28,07:27:00,Fri
+4601438,5125391,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-07-02,07:28:00,2018-07-02,07:32:00,Mon
+4609538,5134150,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-07-02,08:11:00,2018-07-02,08:15:00,Mon
+4612595,5137441,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-07-03,07:28:00,2018-07-03,07:32:00,Tue
+4618198,5143548,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-07-03,08:11:00,2018-07-03,08:12:00,Tue
+4628456,5154473,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-05,07:28:00,2018-07-05,07:27:00,Thu
+4629781,5155874,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-07-05,08:11:00,2018-07-05,08:15:00,Thu
+4638552,5165371,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-07-06,08:11:00,2018-07-06,08:14:00,Fri
+4639401,5166287,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2018-07-06,07:28:00,2018-07-06,07:34:00,Fri
+4657417,5185751,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-09,07:28:00,2018-07-09,07:27:00,Mon
+4658474,5186924,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-07-09,08:11:00,2018-07-09,08:15:00,Mon
+4666387,5195593,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-07-10,08:11:00,2018-07-10,08:16:00,Tue
+4667641,5196925,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-10,07:28:00,2018-07-10,07:27:00,Tue
+4673835,5203564,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-07-11,08:11:00,2018-07-11,08:13:00,Wed
+4677178,5207174,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-11,07:28:00,2018-07-11,07:28:00,Wed
+4683137,5213470,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-12,07:28:00,2018-07-12,07:27:00,Thu
+4686575,5217164,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-07-12,08:11:00,2018-07-12,08:15:00,Thu
+4693075,5224214,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-07-13,07:28:00,2018-07-13,07:29:00,Fri
+4693984,5225211,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-07-13,08:11:00,2018-07-13,08:15:00,Fri
+4710043,5242658,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-16,08:11:00,2018-07-16,08:11:00,Mon
+4715781,5248921,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-07-16,07:28:00,2018-07-16,07:29:00,Mon
+4718596,5251905,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0,estimated,Gladstone Branch,NJ Transit,2018-07-17,08:11:00,2018-07-17,08:13:00,Tue
+4726323,5260277,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-17,07:28:00,2018-07-17,07:27:00,Tue
+4727335,5261368,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-18,07:28:00,2018-07-18,07:27:00,Wed
+4735782,5270363,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-07-18,08:11:00,2018-07-18,08:12:00,Wed
+4737548,5272281,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-19,07:28:00,2018-07-19,07:27:00,Thu
+4742929,5278034,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2018-07-19,08:11:00,2018-07-19,08:16:00,Thu
+4746715,5282107,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.0,estimated,Gladstone Branch,NJ Transit,2018-07-20,08:11:00,2018-07-20,08:15:00,Fri
+4752761,5288625,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-20,07:28:00,2018-07-20,07:27:00,Fri
+4765855,5302856,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-07-23,07:28:00,2018-07-23,07:29:00,Mon
+4771431,5308890,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-23,08:11:00,2018-07-23,08:11:00,Mon
+4775853,5313652,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-24,07:28:00,2018-07-24,07:27:00,Tue
+4779460,5317508,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-24,08:11:00,2018-07-24,08:11:00,Tue
+4786712,5325417,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-25,07:28:00,2018-07-25,07:27:00,Wed
+4787541,5326310,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2018-07-25,08:11:00,2018-07-25,08:18:00,Wed
+4795344,5334746,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-07-26,08:11:00,2018-07-26,08:14:00,Thu
+4796361,5335830,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-26,07:28:00,2018-07-26,07:27:00,Thu
+4803968,5344099,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2018-07-27,08:11:00,2018-07-27,08:14:00,Fri
+4807365,5347843,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-27,07:28:00,2018-07-27,07:27:00,Fri
+4823622,5365623,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-30,08:11:00,2018-07-30,08:10:00,Mon
+4824497,5366572,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2018-07-30,07:28:00,2018-07-30,07:27:00,Mon
+4832067,5374859,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-07-31,08:11:00,2018-07-31,08:12:00,Tue
+4835570,5378717,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0,estimated,Gladstone Branch,NJ Transit,2018-07-31,07:28:00,2018-07-31,07:29:00,Tue
+4838077,5381498,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-08-01,08:11:00,2019-08-01,08:16:00,Thu
+4844592,5389165,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-01,07:28:00,2019-08-01,07:27:00,Thu
+4846017,5390764,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-02,07:28:00,2019-08-02,07:28:00,Fri
+4853292,5399383,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,10.0,estimated,Gladstone Branch,NJ Transit,2019-08-02,08:11:00,2019-08-02,08:21:00,Fri
+4864890,5412376,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-05,07:28:00,2019-08-05,07:27:00,Mon
+4865515,5413136,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,14.0,estimated,Gladstone Branch,NJ Transit,2019-08-05,08:11:00,2019-08-05,08:25:00,Mon
+4872256,5421074,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-08-06,08:11:00,2019-08-06,08:15:00,Tue
+4873167,5422190,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-06,07:28:00,2019-08-06,07:27:00,Tue
+4879687,5429741,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-08-07,08:11:00,2019-08-07,08:15:00,Wed
+4882653,5433160,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-08-07,07:28:00,2019-08-07,07:33:00,Wed
+4887274,5438414,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-08,07:28:00,2019-08-08,07:27:00,Thu
+4890275,5441982,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-08-08,08:11:00,2019-08-08,08:15:00,Thu
+4895454,5448065,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,8.000000000000002,estimated,Gladstone Branch,NJ Transit,2019-08-09,07:28:00,2019-08-09,07:36:00,Fri
+4896225,5448969,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,27.0,estimated,Gladstone Branch,NJ Transit,2019-08-09,08:11:00,2019-08-09,08:38:00,Fri
+4910407,5465009,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-12,07:28:00,2019-08-12,07:27:00,Mon
+4913414,5468445,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-08-12,08:11:00,2019-08-12,08:15:00,Mon
+4919692,5475703,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-08-13,07:28:00,2019-08-13,07:33:00,Tue
+4920655,5476836,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-08-13,08:11:00,2019-08-13,08:14:00,Tue
+4924769,5481565,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-08-14,07:28:00,2019-08-14,07:30:00,Wed
+4931563,5489494,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2019-08-14,08:11:00,2019-08-14,08:17:00,Wed
+4932937,5491063,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-15,07:28:00,2019-08-15,07:27:00,Thu
+4937750,5496759,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-08-15,08:11:00,2019-08-15,08:14:00,Thu
+4940948,5500480,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-16,08:11:00,2019-08-16,08:11:00,Fri
+4945874,5506204,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-08-16,07:28:00,2019-08-16,07:30:00,Fri
+4956821,5518391,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-19,07:28:00,2019-08-19,07:27:00,Mon
+4961902,5524331,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-08-19,08:11:00,2019-08-19,08:12:00,Mon
+4964526,5527312,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-08-20,08:11:00,2019-08-20,08:13:00,Tue
+4969107,5532614,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-20,07:28:00,2019-08-20,07:28:00,Tue
+4971394,5535284,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-21,08:11:00,2019-08-21,08:10:00,Wed
+4978695,5543733,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-21,07:28:00,2019-08-21,07:27:00,Wed
+4979025,5544182,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-22,07:28:00,2019-08-22,07:28:00,Thu
+4985874,5552063,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,8.000000000000002,estimated,Gladstone Branch,NJ Transit,2019-08-22,08:11:00,2019-08-22,08:19:00,Thu
+4988412,5555028,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-08-23,07:28:00,2019-08-23,07:29:00,Fri
+4993445,5560965,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-08-23,08:11:00,2019-08-23,08:15:00,Fri
+5006789,5575944,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-08-26,08:11:00,2019-08-26,08:13:00,Mon
+5007708,5576967,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-26,07:28:00,2019-08-26,07:27:00,Mon
+5013148,5583403,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-08-27,08:11:00,2019-08-27,08:15:00,Tue
+5016063,5586854,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-27,07:28:00,2019-08-27,07:27:00,Tue
+5020925,5592290,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-28,07:28:00,2019-08-28,07:27:00,Wed
+5023944,5595675,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-28,08:11:00,2019-08-28,08:11:00,Wed
+5030552,5603362,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-29,07:28:00,2019-08-29,07:27:00,Thu
+5031473,5604442,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-08-29,08:11:00,2019-08-29,08:13:00,Thu
+5038733,5613071,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-08-30,08:11:00,2019-08-30,08:12:00,Fri
+5039783,5614326,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-08-30,07:28:00,2019-08-30,07:27:00,Fri
+5056848,5632932,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-03,07:28:00,2019-09-03,07:28:00,Tue
+5064011,5641131,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-09-03,08:11:00,2019-09-03,08:12:00,Tue
+5068017,5645704,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-04,07:28:00,2019-09-04,07:27:00,Wed
+5068846,5646732,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-09-04,08:11:00,2019-09-04,08:16:00,Wed
+5074376,5653117,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-05,07:28:00,2019-09-05,07:27:00,Thu
+5077432,5656568,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-09-05,08:11:00,2019-09-05,08:16:00,Thu
+5083093,5663194,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-09-06,08:11:00,2019-09-06,08:13:00,Fri
+5086248,5666865,6406,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-06,07:28:00,2019-09-06,07:27:00,Fri
+5099344,5681805,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-09-09,07:28:00,2019-09-09,07:30:00,Mon
+5102291,5685120,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2019-09-09,08:11:00,2019-09-09,08:18:00,Mon
+5107571,5691498,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,11.0,estimated,Gladstone Branch,NJ Transit,2019-09-10,08:11:00,2019-09-10,08:22:00,Tue
+5110511,5694825,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-10,07:28:00,2019-09-10,07:27:00,Tue
+5116320,5701505,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-09-11,08:11:00,2019-09-11,08:15:00,Wed
+5117323,5702697,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-11,07:28:00,2019-09-11,07:27:00,Wed
+5125028,5711158,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-12,07:28:00,2019-09-12,07:28:00,Thu
+5125721,5711950,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-09-12,08:11:00,2019-09-12,08:13:00,Thu
+5131299,5718303,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-13,07:28:00,2019-09-13,07:28:00,Fri
+5134701,5722197,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-13,08:11:00,2019-09-13,08:10:00,Fri
+5146316,5735305,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-09-16,08:11:00,2019-09-16,08:16:00,Mon
+5153264,5743436,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-09-16,07:28:00,2019-09-16,07:31:00,Mon
+5155849,5746418,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,6.0,estimated,Gladstone Branch,NJ Transit,2019-09-17,08:11:00,2019-09-17,08:17:00,Tue
+5161090,5752438,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-09-17,07:28:00,2019-09-17,07:29:00,Tue
+5164144,5755835,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-09-18,07:28:00,2019-09-18,07:29:00,Wed
+5169275,5761607,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2019-09-18,08:11:00,2019-09-18,08:18:00,Wed
+5170604,5763141,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-19,07:28:00,2019-09-19,07:27:00,Thu
+5177919,5771467,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,4.000000000000001,estimated,Gladstone Branch,NJ Transit,2019-09-19,08:11:00,2019-09-19,08:15:00,Thu
+5179482,5773251,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-20,08:11:00,2019-09-20,08:10:00,Fri
+5186760,5781632,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,1.0000000000000002,estimated,Gladstone Branch,NJ Transit,2019-09-20,07:28:00,2019-09-20,07:29:00,Fri
+5195482,5791568,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,2.0000000000000004,estimated,Gladstone Branch,NJ Transit,2019-09-23,07:28:00,2019-09-23,07:30:00,Mon
+5203083,5800352,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,3.0,estimated,Gladstone Branch,NJ Transit,2019-09-23,08:11:00,2019-09-23,08:14:00,Mon
+5206683,5804386,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-24,07:28:00,2019-09-24,07:27:00,Tue
+5207519,5805320,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2019-09-24,08:11:00,2019-09-24,08:18:00,Tue
+5214424,5813286,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-25,07:28:00,2019-09-25,07:27:00,Wed
+5217553,5816962,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,17.000000000000004,estimated,Gladstone Branch,NJ Transit,2019-09-25,08:11:00,2019-09-25,08:28:00,Wed
+5222279,5822675,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,20.0,estimated,Gladstone Branch,NJ Transit,2019-09-26,08:11:00,2019-09-26,08:31:00,Thu
+5225107,5825834,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,19.0,estimated,Gladstone Branch,NJ Transit,2019-09-26,07:28:00,2019-09-26,07:47:00,Thu
+5231619,5833294,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-27,08:11:00,2019-09-27,08:11:00,Fri
+5232800,5834675,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,0.0,estimated,Gladstone Branch,NJ Transit,2019-09-27,07:28:00,2019-09-27,07:28:00,Fri
+5246725,5850626,6410,16.0,Brick Church,23.0,New York Penn Station,105.0,7.0,estimated,Gladstone Branch,NJ Transit,2019-09-30,08:11:00,2019-09-30,08:18:00,Mon
+5249966,5854326,6406,16.0,Newark Broad Street,106.0,New York Penn Station,105.0,5.0,estimated,Gladstone Branch,NJ Transit,2019-09-30,07:28:00,2019-09-30,07:33:00,Mon

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+  	<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <style>
+
+    	.nav-pills .nav-link.active,.nav-pills .show>.nav-link{
+    		color: #000;
+    		background-color: rgba(10.1,2.07,10.1, 0.06);
+    	}
+
+    	.nav-pills a:hover{
+    		background-color: rgba(10.1,2.07,10.1, 0.03);
+    	}
+
+    	.nav-pills a:focus:active {
+    		background-color: rgba(10.1,2.07,10.1, 0.06)
+    	}
+
+    </style>
+
+    <title>Visualizing NJ Transit - Approach</title>
+
+  </head>
+
+
+
+
+
+
+
+  <body>
+    
+  	<div class="container-fluid">
+
+  		<div class="row">
+
+  			<div class="col-10 mx-auto">
+
+
+  				<div class="row mt-3 mb-3">
+		  			<div class="col-12">
+		  				<!-- page head -->
+		  				<h1>Visualizing NJ Transit Rail Commutes to NYC</h1>
+
+		  				<p class="lh-1 fw-light">
+		  					by Lisa Hu
+		  					<br>-<br>
+		  					Final Project - Information Visualization 17:610:554
+		  					<br>
+		  					Rutgers University School of Communication and Information
+		  					<br>Spring 2021
+		  				</p>
+		  			</div>
+		  		</div>
+
+
+  				<div class="row">
+
+  					<div class="col-4 col-sm-3">
+		  				<!-- nav -->
+		  				<nav class="nav flex-column rounded-3 nav-pills bg-white">
+							<a class="nav-link" href="index.html">Introduction</a>
+							<a class="nav-link active" href="#">Approach</a>
+							<a class="nav-link" href="results.html">Results</a>
+							<a class="nav-link" href="conclusion.html">Conclusion</a>
+							<a class="nav-link" href="files.html">Files</a>
+						</nav>
+					</div>
+
+					<div class="col-8 col-sm-9">
+						<!-- content -->
+						<h2>Approach</h2>
+
+						<h4>Data Source</h4>
+
+						<p>
+							In order to answer the questions posed in the introduction, I searched for a dataset on NJ Transit on-time performance. As far as I know, NJ Transit themselves do not publicly release such datasets.
+						</p>
+						<p>
+							The data used in this project was downloaded from <a href="https://www.kaggle.com/pranavbadami/nj-transit-amtrak-nec-performance">here</a>. According to the author, the data was gathered by scraping data from <a href="https://dv.njtransit.com/?station=NY">NJ Transit DepatureVision</a>, a real-time train status service. The data was then parsed into tabular form and saved in monthly CSV files. The dataset comprises of both NJ Transit and Amtrak trains, covering a period from March 2018 to May 2020, inclusive.
+						</p>
+						<p>
+							I chose to use the data from March 2018 to February 2020, inclusive, for a full 2-year period.
+						</p>
+
+						<figure class="figure w-100 text-center">
+							<a href="approach_prev.png"><img src="approach_prev.png" class="img-fluid my-1" alt="original data preview"></a>
+							<figcaption class="figure-caption">Preview of the March 2018 file. <a href="approach_prev.png">Click</a> for full size.</figcaption>
+						</figure>
+
+						<p>
+							Each row in the file was an individual stop. The default order of rows kept stops of a single train together, such that the rows would go through all the stops, in order, for Train A until its last stop, then start again with all the stops for Train B, and so on.
+						</p>
+						<p>
+							Note that although the "delay_minutes" column of the dataset finds considers delay time in fractions of minutes instead of full minutes only (and indeed, the "actual_time" column also records seconds as well as minutes), the author of the dataset writes that the data collected at minute-level resolution. Also of note is the "status" column, where variables can take one of three categorical values: departed, estimated, or cancelled. The departed value is only used for stops that were explicitly marked down.
+						</p>
+
+						<h4>Data Processing</h4>
+
+						<p>
+							All data processing was done in Python.
+						</p>
+
+						<p>
+							Since I wanted to examine performance by line, the first step taken was to concatenate all the monthly files. After that, I could filter out unnecessary data and separate the data by train line. Initial filters applied threw out data where the train type was not NJ Transit, where train status was not either departed or estimated, and where there were undefined values.
+						</p>
+
+						<p>
+							As I was also interested in looking at performance by day of week and time of day, some processing also had to be done regarding dates and times. I parsed the strings in the "scheduled_time" and "actual_time" columns, separating them into dates and times (hours:minutes:seconds). Using the Python datetime module and data from the "scheduled_time" column, I added a column for day of week (Monday through Sunday).
+						</p>
+
+						<p>
+							Originally, I had hoped to look at both inbound and outbound trains. However, due to the way the original dataset was organized and due to the fact that trains departing from New York Penn Station do not have the same routes, even within lines. For example, if routes along the Northeast Corridor line departing from NY Penn can terminate either at Long Branch or Bay Head, but some routes terminating at Bay Head will make a stop at Long Branch but some do not. So it is not as simple as filtering for a single end station for each line. In the end, I decided to only look at data for inbound trains with their last stop at NY Penn.
+						</p>
+
+						<p>
+							Once these parameters were set, I determined the data I needed to answer my questions. The delay time in minutes and train line were obviously necessary. To answer my questions about day of week and time of day, I needed weekday and some time measure. In order to simplify the dataset for ease of visualization creation, I decided to simplify the time measure from hours:minutes:seconds to just hour periods. So, a value of 14 in the "hour" column would indicate that the train was scheduled to arrive some time between 2:00 pm and 2:59 pm.
+						</p>
+
+						<p>
+							Separate CSV files for different lines were saved.
+						</p>
+
+						<figure class="figure w-100 text-center">
+							<a href="approach_sep.png"><img src="approach_sep.png" class="my-1 w-50" alt="separated files preview"></a>
+							<figcaption class="figure-caption">Preview of the Northeast Corridor processed CSV file.</figcaption>
+						</figure>
+
+						<p>
+							A sample file for the Northeast Corridor (<span class="text-muted">Northeast-Corrdr_TO-NY.csv</span>), previewed above, can be downloaded from the Files page of the website.
+						</p>
+
+						<h4>Developing Visualizations</h4>
+
+						<p>
+							The resulting information visualizations on the Results page were created using D3.js.
+						</p>
+
+						<p>
+							I raised two questions I wanted to answer, so I planned on creating two visualizations.
+						</p>
+						<p>
+							The first would be a histogram of delay in minutes, to see how often trains were late compared to on time. Creating this visualization was fairly straightforward, as histograms are standard and common charts. For ease of data reading, I went back to the CSV files and separated out the delay columns. A sample file for the Northeast Corridor (<span class="text-muted">Northeast-Corrdr_TO-NY-hist.csv</span>) can be downloaded from the Files page.
+						</p>
+						<p>
+							Next, I wanted to see how trains performed depending on day of week and time of day. A <a href="https://www.data-to-viz.com/graph/heatmap.html">traditional heatmap</a>, gridded with hour against day, could show either percentage of trains delayed or average delay time. But I wanted to show both on the same chart, as that would provide a more detailed picture of whether trains are likely to be late <i>and</i> how much they are likely to be late by. After some searching, I decided to create a scatterplot heatmap, similar to <a href="https://seaborn.pydata.org/examples/heat_scatter.html">this matrix example</a>. Size of the circles would correspond to proportion of delayed trains, and color to average minutes late.
+						</p>
+						<p>
+							In order to create this scatterplot heatmap, I had to go back and do some additional data processing. Taking the files generated from the previous section, I grouped rows by day of week and hour. For each group, the percentage of late trains was calculated by counting the number of trains with 0-minute delays, subtracting that from the total count in the group, and dividing the result by the total count. The average delay times for all trains in each group were also found. The resulting files consisted of day and hour information, as well as the new calculated values for use in the scatterplot heatmap. A sample file for the Northeast Corridor (<span class="text-muted">Northeast-Corrdr_TO-NY-heat.csv</span>) can be downloaded from the Files page.
+						</p>
+
+
+
+					</div>
+				</div>
+
+				<div class="row mt-5 mb-3">
+					<div class="col-12 text-center font-monospace">
+						<!-- foot -->
+						- :^) -  Lisa Hu -
+					</div>
+				</div>
+
+			</div>
+
+  		</div>
+
+  	</div>
+
+  </body>
+</html>

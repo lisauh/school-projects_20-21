@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+  	<!-- d3 -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+  	<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <style>
+    	.nav-pills .nav-link.active,.nav-pills .show>.nav-link{
+    		color: #000;
+    		background-color: rgba(10.1,2.07,10.1, 0.06);
+    	}
+
+    	.nav-pills a:hover{
+    		background-color: rgba(10.1,2.07,10.1, 0.03);
+    	}
+
+    	.nav-pills a:focus:active {
+    		background-color: rgba(10.1,2.07,10.1, 0.06)
+    	}
+
+
+    	#histdiv rect:hover{
+    		opacity:0.8;
+    	}
+
+    	#heatdiv circle:hover{
+    		stroke:#bbb;
+    	}
+
+    	div.tooltip {
+    		position:absolute;
+    		max-width:144px;
+    		padding:3px;
+    		background-color:#fff;
+    		border: 1px solid #eee;
+    		border-radius:3px;
+    		pointer-events:none;
+    		font-size:0.8rem;
+    		text-align:center;
+    	}
+    </style>
+
+    <title>Visualizing NJ Transit - Results</title>
+
+  </head>
+
+
+
+
+
+
+
+  <body>
+    
+  	<div class="container-fluid">
+
+  		<div class="row">
+
+  			<div class="col-10 mx-auto">
+
+
+  				<div class="row mt-3 mb-3">
+		  			<div class="col-12">
+		  				<!-- page head -->
+		  				<h1>Visualizing NJ Transit Rail Commutes to NYC</h1>
+
+		  				<p class="lh-1 fw-light">
+		  					by Lisa Hu
+		  					<br>-<br>
+		  					Final Project - Information Visualization 17:610:554
+		  					<br>
+		  					Rutgers University School of Communication and Information
+		  					<br>Spring 2021
+		  				</p>
+		  			</div>
+		  		</div>
+
+
+  				<div class="row">
+
+  					<div class="col-4 col-sm-3">
+		  				<!-- nav -->
+		  				<nav class="nav flex-column rounded-3 nav-pills bg-white">
+							<a class="nav-link" href="index.html">Introduction</a>
+							<a class="nav-link" href="approach.html">Approach</a>
+							<a class="nav-link active" aria-current="page" href="#">Results</a>
+							<a class="nav-link" href="conclusion.html">Conclusion</a>
+							<a class="nav-link" href="files.html">Files</a>
+						</nav>
+					</div>
+
+					<div class="col-8 col-sm-9">
+						<!-- content -->
+						<h2>Results</h2>
+
+						<p>
+							Inbound NJ Transit commuter trains arrive at New York Penn Station, located right under Madison Square Garden, between 7th & 9th Avenues and 31st & 33rd Streets. Will your train arrive on time? Start by choosing a train line. Please note that weekend data is not available for the Gladstone, Montclair-Boonton, and Raritan Valley lines.
+						</p>
+
+						<p>
+							Current schedule timetables for NJ Transit rail lines, including ones that do not stop at NY Penn, can be found <a href="https://www.njtransit.com/schedules/printable">here</a>. Since the data used in this project was gathered, the Gladstone Branch has been folded into the renamed Morris & Essex Line (formerly known as the Morristown Line).
+						</p>
+
+						<h5 class="ms-3">select a train line:</h5>
+						<div class="row mb-5">
+							<div class="col-8 mx-auto">
+								<select id="line_select" class="form-select mw-50" onchange="changeLine()">
+									<option value=0>Gladstone Branch</option>
+									<option value=1>Montclair-Boonton Line</option>
+									<option value=2>Morristown Line</option>
+									<option value=3>North Jersey Coast Line</option>
+									<option value=4 selected>Northeast Corridor Line</option>
+									<option value=5>Raritan Valley Line</option>
+								</select>
+							</div>
+						</div>
+
+						<h4 id="selected_text" class="text-center mb-5"></h4>
+
+
+
+						<h4>How likely is it that the train will arrive on time?</h4>
+
+						<div id="histdiv" class="w-100 text-center my-3">
+							<h5>Histogram of Delay Times</h5>
+						</div>
+
+						<p id="histdescrip">
+						</p>
+
+						<p>
+							Most of the train lines only arrive at or before the scheduled arrival time at NY Penn, with the exception being the Raritan Valley Line, which has over three-quarters of its trains arriving on time. However, the majority of late trains, roughly three-quarters for more lines, are late by under 10 minutes.
+						</p>
+						<p>
+							NJ Transit rail performance for inbound trains seems similar to Amtrak's on-time performance measures, which reported <a href="https://www.bts.gov/content/amtrak-time-performance-trends-and-hours-delay-cause">79.7% of northeast corridor trains in 2018 and 84.1% in 2019</a> arrived within 15 minutes of the scheduled time.
+						</p>
+						<p>
+							So if you're not in a particular hurry to get somewhere, this doesn't seem so bad does it?
+						</p>
+
+						<h4>Does time and day of week matter?</h4>
+
+						<p>
+							For regular work commuters to New York City, it's important to be able to arrive at work on time, but ideally not too early, on weekdays. Let's assume the average commuter would want to arrive at NY Penn some time between 8 am and 9 am on weekday mornings, so they have enough time to make their way to the office from there. How do train arrivals during these time periods compare with those during others?
+						</p>
+						<p>
+							<small>For this visualization, I recommend selecting either the Morristown, North Jersey Coast, or Northeast Corridor line.</small>
+						</p>
+
+						<div id="heatdiv" class="w-100 text-center my-3">
+							<h5>Lateness Scatterplot Heatmap</h5>
+							<p>
+								Larger circles indicate a higher percentage of delayed arrivals, while circles that are more red indicate a longer average delay time.
+							</p>
+						</div>
+
+						<p>
+							Unfortunately, the average commuter is out of luck. Trains arriving in New York between 8 and 9 am on weekdays have some of the highest percentages of delays across nearly all lines. Average lateness seems to hover around 5 minutes, which could be manageable if they happen to not mind being late once in a while.
+						</p>
+						<p>
+							However, if clock-in times are strictly monitored, the commuter may be out of luck; even though more trains run during these time periods, not every train stops at every stop. In order to get to work on time, they might have to get up 20 or 30 minutes earlier to catch an earlier train.
+						</p>
+						<p>
+							An increase in morning weekday delays might be expected due to rush hour travel. Perhaps surprisingly, many lines also show an increase in delays around 6 pm on weekdays. As a guess, this could possibly be related to the outbound train traffic during evening rush hour. There are a limited number of train tracks at NY Penn, and perhaps the amount of outbound trains causes logistics issues that results in inbound trains having to wait around before finally being allowed to pull up to an available platform.
+						</p>
+						<p>
+							For both the Morristown and Northeast Corridor lines, percentage of late trains drops during weekends. But for trains running on the North Jersey Coast line, trains are actually delayed more often and delayed for longer periods of time for most hours on weekends, compared to weekdays.
+						</p>
+
+						<h4>Overall?</h4>
+
+						<p>
+							Although NJ Transit seems to have decent performance when looking at overall numbers, as a morning commuter on a tight time schedule, I would not bank on my train arriving on time.
+						</p>
+
+					</div>
+
+
+					<div class="row mt-5 mb-3">
+						<div class="col-12 text-center">
+							<!-- foot -->
+							-
+						</div>
+					</div>
+
+			</div>
+
+  		</div>
+
+  	</div>
+  	<script>
+  		var linenum = document.getElementById("line_select").value;
+
+  		function changeLine(){
+	  		var newline = document.getElementById("line_select").value;
+
+	  		writeSelection(newline);
+	  		d3.select("#histdiv").selectAll("svg").remove();
+	  		drawHist(newline);
+	  		d3.select("#heatdiv").selectAll("svg").remove();
+	  		drawHeat(newline);
+	  	};
+
+		function getLineName(linenum){
+	  		var linenames = ["Gladstone Branch",
+	  			"Montclair-Boonton Line",
+	  			"Morristown Line",
+				"North Jersey Coast Line",
+	  			"Northeast Corridor Line",
+	  			"Raritan Valley Line"];
+  			return linenames[linenum];
+	  	}
+
+	  	function writeSelection(linenum){
+	  		document.getElementById("selected_text").innerHTML = "You have selected the <b>"+getLineName(linenum)+"</b>"
+	  	}
+
+	  	writeSelection(linenum);
+
+	  	
+
+	  	var margin = 20;
+		var min_width = 340;
+		var max_width = 660; // for heat only
+		var cornerpad = 20; // for heat only
+		var legendSpace = 100; // for heat only
+
+		////linspace
+		function linSpace(start,end,len){
+			var arr = [];
+			var interval = (end-start)/(len-1);
+			for (var i=0; i<len; i++) {
+				arr.push(start + i*interval);
+			}
+			return arr;
+		}
+		////minutes:seconds
+		function zeroPad(num, len){
+			var result = ""+num;
+			while(result.length<len){
+				result = "0"+result;
+			}
+			return result;
+		}
+
+		function time_format(minutes){
+			var minint = Math.floor(minutes);
+			var secint = Math.round((minutes-minint)*60);
+			return zeroPad(minint,2)+":"+zeroPad(secint,2);
+		}
+
+	  	////START HISTOGRAM
+	  	function drawHist(linenum){
+			
+			var histheight = 300 - 2*margin;
+
+			// append histsvg
+			var histsvg = d3.select("#histdiv")
+			  	.append("svg")
+			    .attr("height", histheight + 2*margin);
+
+			var histPromise = Promise.all([
+				d3.csv("forweb/Gladstone-Branch_TO-NY-hist.csv"),
+	  			d3.csv("forweb/Montclair-Boonton_TO-NY-hist.csv"),
+	  			d3.csv("forweb/Morristown-Line_TO-NY-hist.csv"),
+	  			d3.csv("forweb/No-Jersey-Coast_TO-NY-hist.csv"),
+	  			d3.csv("forweb/Northeast-Corrdr_TO-NY-hist.csv"),
+	  			d3.csv("forweb/Raritan-Valley_TO-NY-hist.csv")
+			]).then(function(data){
+				dataset = data[linenum];
+				
+				// to number
+				dataset.forEach(function(d) {
+					d.delay = +d.delay;
+				});
+
+				var entries = dataset.length;
+
+			  	// x axis
+			  	var x = d3.scaleLinear()
+			      	.domain([0, 90]);
+			  	var xAxis = histsvg.append("g")
+			      	.attr("transform", "translate(0," + histheight + ")")
+			    var xLabel = histsvg.append("text");
+
+			  	// histogram
+			  	var histogram = d3.histogram()
+			      	.value(function(d) { return d.delay; })
+			      	.domain(x.domain())  // domain of graphic
+			      	.thresholds(x.ticks(90)); // bin numbers
+
+			  	// hist bins
+			  	var bins = histogram(dataset);
+
+			  	// y axis
+			  	var y = d3.scaleLinear()
+			     	.range([histheight, 0]);
+			     	y.domain([0, d3.max(bins, function(d) { return d.length; })]);
+
+			  	// hist rectangles
+			  	var histInit = histsvg.selectAll("rect")
+			      	.data(bins)
+			      	.enter()
+			      	.append("rect")
+			        	.attr("height", function(d) { return histheight - y(d.length); })
+			        	.style("fill", function(d) {
+			        		if (d.x0==0){
+			        			return "seagreen"
+			        		} else if (d.x0<=5){
+			        			return "goldenrod"
+			        		} else {return "indianred"}
+			        	});
+
+			    // for html text
+			  	var on_time = bins[0].length/entries * 100;
+			  	var on_time_print = on_time.toFixed(1);
+			  	var almost = (bins[1].length+bins[2].length+bins[3].length+bins[4].length)/entries*100;
+				var almost_print = almost.toFixed(1);
+				var late = 100-on_time;
+				var late_print = late.toFixed(1);
+				var very_late = late-almost;
+				var very_late_print = very_late.toFixed(1);
+				// write html text
+				document.getElementById("histdescrip").innerHTML = "<b>"+on_time_print+"% of trains are on time.</b><br>"+
+					"This means <b>"+late_print+"% of trains are late</b>, with "+
+					almost_print+"% being 1 to 5 minutes late and "+
+					very_late_print+"% more than 5 minutes late.";
+
+			  	// resize chart for diff window sizes
+			  	function drawResizedChart(){
+
+				  	// get div width, set histsvg width
+					var get_width = parseInt(d3.select('#histdiv').style('width'), 10)
+					if (get_width<min_width) {
+						var current_width = min_width;
+					} else {var current_width = get_width};
+					histsvg.attr("width", current_width)
+
+				  	// x scale and axis
+					x.range([margin,current_width-margin]);
+					xAxis.call(d3.axisBottom(x))
+					xLabel.attr("text-anchor","middle")
+			    		.attr("x", current_width/2)
+			    		.attr("y", histheight + 1.5*margin)
+			    		.text("minutes past scheduled arrival time")
+			    		.style("font-size", "12px")
+
+				  	// width and position for rects
+					histInit
+				    	.attr("x", 0)
+			        	.attr("transform", function(d) { return "translate(" + x(d.x0-0.5) + "," + y(d.length) + ")"; })
+			        	.attr("width", function(d) { return x(d.x1) - x(d.x0) -1 ; })
+					};	
+
+				drawResizedChart()
+
+				window.addEventListener('resize', drawResizedChart);
+
+			});
+		}
+		////END HISTOGRAM
+
+
+		
+		////START SCATTER HEATMAP
+		function drawHeat(linenum){
+
+			var heatheight = 840 - 2*margin - cornerpad;
+
+			var heatsvg = d3.select("#heatdiv")
+				.append("svg")
+			    .attr("height", heatheight + 2*margin+cornerpad)
+
+			// get data
+			var heatPromise = Promise.all([
+				d3.csv("forweb/Gladstone-Branch_TO-NY-heat.csv"),
+	  			d3.csv("forweb/Montclair-Boonton_TO-NY-heat.csv"),
+	  			d3.csv("forweb/Morristown-Line_TO-NY-heat.csv"),
+	  			d3.csv("forweb/No-Jersey-Coast_TO-NY-heat.csv"),
+	  			d3.csv("forweb/Northeast-Corrdr_TO-NY-heat.csv"),
+	  			d3.csv("forweb/Raritan-Valley_TO-NY-heat.csv")
+			]).then(function(data){
+				dataset = data[linenum];
+
+				// to number
+				dataset.forEach(function(d){
+					var heatslice = d.heatdata.slice(1,d.heatdata.length-1);
+					var heatsplit = heatslice.split(", ");
+					heatsplit[0] = +heatsplit[0]
+					heatsplit[1] = +heatsplit[1]
+					d.heatdata = heatsplit;
+				})
+
+				var times = ["12a","1a","2a","3a","4a","5a",
+						"6a","7a","8a","9a","10a","11a","12p",
+						"1p","2p","3p","4p","5p","6p","7p",
+						"8p","9p","10p","11p"];
+				var days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+
+				// x axis
+				var x2 = d3.scalePoint()
+					.domain(days)
+				var xAxis2 = heatsvg.append("g")
+					.attr("transform", "translate(0," + (heatheight) + ")")
+				var xAxis2b = heatsvg.append("g")
+					.attr("transform", "translate(0," + (margin) + ")")
+
+				// y axis
+				var y2 = d3.scalePoint()
+					.domain(times)
+					.range([cornerpad+margin,heatheight-margin]);
+				var yAxis2 = heatsvg.append("g")
+					.attr("transform", "translate("+(margin)+",0)") // vertical position			
+
+				// for circle color, size
+				var fillScale = d3.scaleLinear()
+	            	.domain([0, d3.max(dataset, function(d) {
+	                    return d.heatdata[1];
+	                })])
+	                .range([225,0]);
+
+	            var maxRadius = 15;
+
+				// heatmap circles
+				var heatInit = heatsvg.selectAll("dot")
+					.data(dataset)
+					.enter()
+					.append("circle")
+						.attr("cx", function(d){
+							return x2(d.week_day);
+						})
+						.attr("cy", function(d){
+							return y2(times[d.hour]);
+						})
+						.attr("r", function(d){
+							return maxRadius*Math.sqrt(d.heatdata[0])
+						})
+						.style("fill", function(d){
+							return "rgba(200,"+fillScale(d.heatdata[1])+",0,1)";
+						})
+						.attr("stroke","white")
+						.style("stroke-width","1px");
+
+				// color legend
+				var color_key = linSpace(0, d3.max(dataset, function(d) {return d.heatdata[1];}), 4);
+				var blockheight = 20;
+				var blockwidth = 5;
+				var colorLegend = heatsvg.selectAll("colorkey")
+					.data(color_key)
+					.enter()
+					.append("rect")
+					.attr("y", function(d,i){
+						return margin+blockheight+i*blockheight;
+					})
+					.attr("width",blockwidth)
+					.attr("height",blockheight)
+					.style("fill", function(d){
+						return "rgba(200,"+fillScale(d)+",0,1)";
+						})
+				var colorLegend2 = heatsvg.selectAll("colorlabel")
+					.data(color_key)
+					.enter()
+					.append("text")
+					.attr("y", function(d,i){
+						return margin+1.5*blockheight+i*blockheight;
+					})
+					.text(function(d){
+						return time_format(d)
+					})
+					.attr("text-anchor", "left")
+					.style("alignment-baseline", "central")
+					.style("font-size","10px");
+				var colorText = heatsvg.append("text")
+					.attr("y", margin)
+					.text("late by (mm:ss)")
+					.attr("text-anchor","left")
+					.style("alignment-baseline","hanging")
+					.style("font-size","10px")
+					.style("font-weight","bold");
+
+				// size legend
+				var size_key_arr = linSpace(0, 1, 4);
+				var size_key = size_key_arr.slice(1);
+				var sizeLegend = heatsvg.selectAll("sizekey")
+					.data(size_key)
+					.enter()
+					.append("circle")
+					.attr("cy", function(d,i){
+						return (5*blockheight+5*margin)+i*(maxRadius*2+maxRadius)
+					})
+					.attr("r", function(d){
+							return maxRadius*Math.sqrt(d);
+						})
+					.style("stroke-width","0px")
+					.style("fill", "#dadada");
+				var sizeLegend2 = heatsvg.selectAll("sizeLabel")
+					.data(size_key)
+					.enter()
+					.append("text")
+					.attr("y", function(d,i){
+						return (5*blockheight+5*margin)+i*(maxRadius*2+maxRadius);
+					})
+					.text(function(d,i){
+						if (i!=2){
+							return (1+i)+"/3 of the time";
+						} else {return "all the time"}
+					})
+					.attr("text-anchor","center")
+					.style("alignment-baseline", "central")
+					.style("font-size","10px");
+				var sizeText = heatsvg.append("text")
+					.attr("y", (5*blockheight+3.5*margin))
+					.text("trains are late")
+					.attr("text-anchor","left")
+					.style("alignment-baseline","hanging")
+					.style("font-size","10px")
+					.style("font-weight","bold");
+
+				// tooltip
+				var div = d3.select("#heatdiv").append("div")
+					.attr("class","tooltip")
+					.style("opacity",0);
+
+
+				// resize chart for diff window sizes
+			  	function drawResizedChart2(){
+
+				  	// get div width, set heatsvg width
+					var get_width = parseInt(d3.select('#histdiv').style('width'), 10)
+					if (get_width<(min_width)) {
+						var current_width = min_width;
+					} else if (get_width>max_width){
+						var current_width = max_width;
+					} else {var current_width = get_width};
+					heatsvg.attr("width", current_width);
+
+				  	// x,y scale and axes
+					x2.range([cornerpad+margin,current_width-margin-legendSpace]);
+					xAxis2.call(d3.axisBottom(x2).tickSize(-heatheight+cornerpad))
+						.select(".domain").remove();
+					xAxis2b.call(d3.axisTop(x2))
+						.select(".domain").remove();
+					yAxis2.call(d3.axisLeft(y2).tickSize(-current_width+cornerpad+legendSpace))
+					.select(".domain").remove();
+					// gridline color
+					var grid = heatsvg.selectAll(".tick line")
+						.attr("stroke","#eeeeee")
+
+					// legends
+					colorLegend
+						.attr("x", current_width-legendSpace+blockwidth*2);
+					colorLegend2
+						.attr("x", current_width-legendSpace+3*blockwidth+1);
+					colorText
+						.attr("x",current_width-legendSpace+blockwidth*2);
+					sizeLegend
+						.attr("cx", current_width-legendSpace+2*maxRadius);
+					sizeLegend2
+						.attr("x", current_width-legendSpace*2/3);
+					sizeText
+						.attr("x",current_width-legendSpace+blockwidth*2);
+
+				  	// the circles
+					heatInit
+				    	.attr("cx", function(d){
+							return x2(d.week_day);
+						})
+						.on("mouseover", function(event,d){
+							var lateper = d.heatdata[0]*100;
+							var lateper_print = lateper.toFixed(1);
+							var lateavg_min = Math.floor(d.heatdata[1]);
+							var lateavg_sec = Math.round((d.heatdata[1]-lateavg_min)*60);
+
+							div.transition()
+								.duration(300)
+								.style("opacity",0.9);
+							div.html("<i>"+lateper_print+"%</i> of trains are late, by an average of <i>"+lateavg_min+" minutes and "+lateavg_sec+" seconds</i>.")
+								.style("left", (event.pageX+margin)+"px")
+								.style("top", (event.pageY)+"px");
+						})
+						.on("mousemove", function(event){
+							div
+								.style("left", (event.pageX+margin)+"px")
+								.style("top", (event.pageY)+"px");
+						})
+						.on("mouseout", function(){
+							div.transition()
+								.duration(400)
+								.style("opacity",0)
+							div.html("")
+						});
+
+					};
+
+				drawResizedChart2()
+
+				window.addEventListener('resize', drawResizedChart2);
+
+			});
+		}
+
+		drawHist(linenum);
+		drawHeat(linenum);
+
+	</script>
+
+  </body>
+</html>

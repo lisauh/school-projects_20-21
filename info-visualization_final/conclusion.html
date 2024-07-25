@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+  	<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <style>
+
+    	.nav-pills .nav-link.active,.nav-pills .show>.nav-link{
+    		color: #000;
+    		background-color: rgba(10.1,2.07,10.1, 0.06);
+    	}
+
+    	.nav-pills a:hover{
+    		background-color: rgba(10.1,2.07,10.1, 0.03);
+    	}
+
+    	.nav-pills a:focus:active {
+    		background-color: rgba(10.1,2.07,10.1, 0.06)
+    	}
+
+    </style>
+
+    <title>Visualizing NJ Transit - Conclusion</title>
+
+  </head>
+
+
+
+
+
+
+
+  <body>
+    
+  	<div class="container-fluid">
+
+  		<div class="row">
+
+  			<div class="col-10 mx-auto">
+
+
+  				<div class="row mt-3 mb-3">
+		  			<div class="col-12">
+		  				<!-- page head -->
+		  				<h1>Visualizing NJ Transit Rail Commutes to NYC</h1>
+
+		  				<p class="lh-1 fw-light">
+		  					by Lisa Hu
+		  					<br>-<br>
+		  					Final Project - Information Visualization 17:610:554
+		  					<br>
+		  					Rutgers University School of Communication and Information
+		  					<br>Spring 2021
+		  				</p>
+		  			</div>
+		  		</div>
+
+
+  				<div class="row">
+
+  					<div class="col-4 col-sm-3">
+		  				<!-- nav -->
+		  				<nav class="nav flex-column rounded-3 nav-pills bg-white">
+							<a class="nav-link" href="index.html">Introduction</a>
+							<a class="nav-link" href="approach.html">Approach</a>
+							<a class="nav-link" href="results.html">Results</a>
+							<a class="nav-link active" href="#">Conclusion</a>
+							<a class="nav-link" href="files.html">Files</a>
+						</nav>
+					</div>
+
+					<div class="col-8 col-sm-9">
+						<!-- content -->
+						<h2>Conclusion</h2>
+
+						<p>
+							For most NJ Transit rail lines, trains arrive at New York Penn Station at the scheduled time only around half of the time. However, of the late trains, roughly half arrive within 5 minutes of the scheduled time.
+						</p>
+						<p>
+							Commuters looking to arrive in New York City between 8 am and 9 am should expect trains scheduled at those times to arrive later with greater frequency and sometimes by greater amounts compared to other times during weekdays. More spikes in frequency of late arrivals occurs around 6pm on weekdays, perhaps due to increasing outbound train traffic from NY Penn. Although most lines seem to perform slightly better on weekends, trains running on the North Jersey Coast line actually perform worse.
+						</p>
+
+						<h4>Looking Back</h4>
+
+						<p>
+							There are a few items to note regarding the data and approach taken to data processing. Firstly, since the data was collected and labeled, the Gladstone Branch is no longer considered an independent line, and has now been folded into the Morris & Essex line, which was formerly known as the Morristown Line.
+						</p>
+						<p>
+							In addition, there is some vagueness surrounding the recorded actual times in the source data files. The "status" column records <i>departed</i> for trains where the time is actually marked down and <i>estimated</i> for those not actually marked. It could be possible that trains estimated to arrive on time did not actually arrive on time, but further information was not available.
+						</p>
+
+						<p>
+							In terms of data processing, I completely ignored the trains whose with <i>cancelled</i> statuses. If the number of cancelled trains is large, this would greatly affect the resulting analysis, as cancelled trains are a cause of delay as passengers would have likely to wait minutes to an hour to catch the next one.
+						</p>
+						<p>
+							For the scatterplot heatmap visualization, there is no indication of the number of individual data entries in each day and hour group. Without knowing if the number of instances is small or large, it becomes more difficult to determine if the resulting numbers are actually representative of an average train or are heavily skewed in one way or another. For example, looking at this visualization for the Montclair-Boonton dataset, the one circle at Wednesday 6pm stands out with 100% of trains late and an average late time of 30 minutes. To me, this is an obvious indicator that there was only one data point within that group, and is likely not at all representative of the average train arriving during that time period.
+						</p>
+						<p>
+							A few of the lines also had very few data points in general. This could be due to issues with the scraping process and/or my data processing approach, where data was not stored or formatted correctly or I accidentally dropped useful data entries.
+						</p>
+
+						<h4>Looking Further</h4>
+
+						<p>
+							Although the data used in this project ends in mid-2020, there are still many more types of analysis that can be performed on it. For example, the anomaly of the North Jersey Coast trains actually arriving late more often on weekends, especially in the afternoon and evening. Could this be the result of New Yorkers going down to the beach for a day and then causing lines to be more busy in their return to the city? A hint to this question's answer can be found by performing analysis on lateness for separate seasons, dividing using the dates in the dataset.
+						</p>
+						
+					</div>
+				</div>
+
+
+				<div class="row mt-5 mb-3">
+					<div class="col-12 text-center font-monospace">
+						<!-- foot -->
+						- :^) -  Lisa Hu -
+					</div>
+				</div>
+
+			</div>
+
+  		</div>
+
+  	</div>
+
+  </body>
+</html>
