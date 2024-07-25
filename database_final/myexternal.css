@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* mmmusicdb external css */
+
+
+
+/* for general pages */
+
+footer {
+	font-size:0.8rem;
+}
+
+.user-status {
+	font-size:0.8rem;
+}
+
+
+/* for login + registration */
+.error-text {
+	color:#943126;
+	font-size:0.8rem;
+	font-style:italic;
+}
